@@ -1,6 +1,6 @@
 # Beyond FAIR: Fitness Functions for Sustainable Research Software
 
-This repository accompanies the anonymized paper _"Beyond FAIR: A Fitness Function Framework for Sustainable Research Software"_.
+This repository accompanies the paper _"Beyond FAIR: A Fitness Function Framework for Sustainable Research Software"_.
 
 The repository contains a lightweight and modular prototype for assessing sustainability properties of research software artifacts **beyond the traditional FAIR dimensions**. While FAIR remains important for findability, accessibility, interoperability, and reusability, this prototype focuses on additional sustainability concerns related to:
 
