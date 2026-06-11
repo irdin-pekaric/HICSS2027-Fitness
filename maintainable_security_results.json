@@ -1,0 +1,869 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "maintainable_security": false,
+        "status": "failed",
+        "score": 1,
+        "minimum_score": 5,
+        "security_policy_files": [],
+        "dependency_update_files": [],
+        "security_workflows": [],
+        "ci_workflows": [],
+        "test_dirs": [],
+        "test_file_count": 0,
+        "issue_templates": [],
+        "governance_files": [],
+        "release_files": [],
+        "dependency_files": [
+            "requirements.txt"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [],
+        "static_analysis_tools": [],
+        "keyword_findings": {
+            "vulnerability_reporting": [],
+            "dependency_updates": [],
+            "remediation_workflow": [],
+            "testing_quality": [
+                "ci"
+            ],
+            "static_analysis": []
+        },
+        "evidence": [
+            "Dependency declaration files found: requirements.txt"
+        ],
+        "issues": [
+            "No SECURITY.md or vulnerability reporting process found",
+            "No dependency update automation found",
+            "No security scanning workflow found",
+            "No CI/build workflow found",
+            "No test suite evidence found",
+            "No issue or pull-request templates found",
+            "No contribution/governance files found",
+            "No changelog/release metadata found",
+            "No dependency lock files found",
+            "No static-analysis/linting configuration found",
+            "No remediation workflow evidence found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "maintainable_security": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 5,
+        "security_policy_files": [],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [],
+        "ci_workflows": [
+            ".github/workflows/project_euler.yml",
+            ".github/workflows/sphinx.yml",
+            ".github/workflows/directory_writer.yml",
+            ".github/workflows/build.yml",
+            ".github/workflows/devcontainer_ci.yml",
+            ".github/workflows/ruff.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 23,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/feature_request.yml",
+            ".github/ISSUE_TEMPLATE/bug_report.yml",
+            ".github/ISSUE_TEMPLATE/other.yml"
+        ],
+        "governance_files": [
+            "CONTRIBUTING.md"
+        ],
+        "release_files": [],
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml"
+        ],
+        "static_analysis_tools": [
+            "bandit",
+            "flake8",
+            "isort",
+            "mypy",
+            "pre-commit",
+            "pylint",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [],
+            "dependency_updates": [],
+            "remediation_workflow": [],
+            "testing_quality": [
+                "pytest",
+                "unittest",
+                "tox",
+                "coverage",
+                "ci"
+            ],
+            "static_analysis": [
+                "bandit",
+                "ruff",
+                "pylint",
+                "flake8",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security/static-analysis terms found: bandit, ruff, pylint, flake8, mypy, pre-commit",
+            "CI/build workflows found: .github/workflows/project_euler.yml, .github/workflows/sphinx.yml, .github/workflows/directory_writer.yml, .github/workflows/build.yml, .github/workflows/devcontainer_ci.yml, .github/workflows/ruff.yml",
+            "Test evidence found: dirs=0, files=23",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/feature_request.yml, .github/ISSUE_TEMPLATE/bug_report.yml, .github/ISSUE_TEMPLATE/other.yml",
+            "Contribution/governance files found: CONTRIBUTING.md",
+            "Dependency declaration files found: pyproject.toml",
+            "Lock files found: uv.lock",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml"
+        ],
+        "issues": [
+            "No SECURITY.md or vulnerability reporting process found",
+            "No changelog/release metadata found",
+            "No remediation workflow evidence found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "security_policy_files": [
+            "SECURITY.md"
+        ],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [
+            ".github/workflows/codeql.yml",
+            ".github/workflows/labeler-title-regex.yml",
+            ".github/workflows/artifact-redirector.yml",
+            ".github/workflows/labeler-module.yml"
+        ],
+        "ci_workflows": [
+            ".github/workflows/publish_pypi.yml",
+            ".github/workflows/unit-tests.yml",
+            ".github/workflows/check-sdist.yml",
+            ".github/workflows/lint.yml",
+            ".github/workflows/autoclose-comment.yml",
+            ".github/workflows/bot-lint-comment.yml",
+            ".github/workflows/autoclose-schedule.yml",
+            ".github/workflows/update-lock-files.yml",
+            ".github/workflows/needs-decision.yml",
+            ".github/workflows/check-changelog.yml",
+            ".github/workflows/labeler-title-regex.yml",
+            ".github/workflows/cuda-label-remover.yml",
+            ".github/workflows/label-blank-issue.yml",
+            ".github/workflows/update_tracking_issue.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/artifact-redirector.yml",
+            ".github/workflows/cuda-ci.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/labeler-module.yml",
+            ".github/workflows/codespell.yml",
+            ".github/workflows/not-ready-for-pr-warning.yml",
+            ".github/workflows/emscripten.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 260,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/doc_improvement.yml",
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/feature_request.yml",
+            ".github/ISSUE_TEMPLATE/bug_report.yml",
+            ".github/PULL_REQUEST_TEMPLATE.md"
+        ],
+        "governance_files": [
+            "CONTRIBUTING.md",
+            "CODE_OF_CONDUCT.md"
+        ],
+        "release_files": [],
+        "dependency_files": [
+            "pyproject.toml",
+            "doc/binder/requirements.txt",
+            ".binder/requirements.txt"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml"
+        ],
+        "static_analysis_tools": [
+            "flake8",
+            "mypy",
+            "pre-commit",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [
+                "vulnerability"
+            ],
+            "dependency_updates": [],
+            "remediation_workflow": [
+                "patch"
+            ],
+            "testing_quality": [
+                "pytest",
+                "ci"
+            ],
+            "static_analysis": [
+                "ruff",
+                "flake8",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Security policy found: SECURITY.md",
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security scanning workflows found: .github/workflows/codeql.yml, .github/workflows/labeler-title-regex.yml, .github/workflows/artifact-redirector.yml, .github/workflows/labeler-module.yml",
+            "CI/build workflows found: .github/workflows/publish_pypi.yml, .github/workflows/unit-tests.yml, .github/workflows/check-sdist.yml, .github/workflows/lint.yml, .github/workflows/autoclose-comment.yml, .github/workflows/bot-lint-comment.yml, .github/workflows/autoclose-schedule.yml, .github/workflows/update-lock-files.yml, .github/workflows/needs-decision.yml, .github/workflows/check-changelog.yml",
+            "Test evidence found: dirs=0, files=260",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/doc_improvement.yml, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/feature_request.yml, .github/ISSUE_TEMPLATE/bug_report.yml, .github/PULL_REQUEST_TEMPLATE.md",
+            "Contribution/governance files found: CONTRIBUTING.md, CODE_OF_CONDUCT.md",
+            "Dependency declaration files found: pyproject.toml, doc/binder/requirements.txt, .binder/requirements.txt",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml",
+            "Remediation workflow terms found: patch"
+        ],
+        "issues": [
+            "No changelog/release metadata found",
+            "No dependency lock files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 5,
+        "security_policy_files": [],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [
+            ".github/workflows/codeql.yml"
+        ],
+        "ci_workflows": [
+            ".github/workflows/unit-tests.yml",
+            ".github/workflows/cache-cleanup.yml",
+            ".github/workflows/package-checks.yml",
+            ".github/workflows/update-pixi-lock.yml",
+            ".github/workflows/comment-commands.yml",
+            ".github/workflows/code-checks.yml",
+            ".github/workflows/stale-pr.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/docbuild-and-upload.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/deprecation-tracking-bot.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 1023,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/feature_request.yaml",
+            ".github/ISSUE_TEMPLATE/pdep_vote.yaml",
+            ".github/ISSUE_TEMPLATE/documentation_improvement.yaml",
+            ".github/ISSUE_TEMPLATE/performance_issue.yaml",
+            ".github/ISSUE_TEMPLATE/bug_report.yaml",
+            ".github/ISSUE_TEMPLATE/installation_issue.yaml",
+            ".github/ISSUE_TEMPLATE/submit_question.yml",
+            ".github/PULL_REQUEST_TEMPLATE.md"
+        ],
+        "governance_files": [],
+        "release_files": [],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml"
+        ],
+        "static_analysis_tools": [
+            "bandit",
+            "black",
+            "flake8",
+            "isort",
+            "mypy",
+            "pre-commit",
+            "pylint",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [],
+            "dependency_updates": [],
+            "remediation_workflow": [
+                "patch"
+            ],
+            "testing_quality": [
+                "pytest",
+                "unittest",
+                "coverage",
+                "ci"
+            ],
+            "static_analysis": [
+                "bandit",
+                "ruff",
+                "pylint",
+                "flake8",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security scanning workflows found: .github/workflows/codeql.yml",
+            "CI/build workflows found: .github/workflows/unit-tests.yml, .github/workflows/cache-cleanup.yml, .github/workflows/package-checks.yml, .github/workflows/update-pixi-lock.yml, .github/workflows/comment-commands.yml, .github/workflows/code-checks.yml, .github/workflows/stale-pr.yml, .github/workflows/codeql.yml, .github/workflows/docbuild-and-upload.yml, .github/workflows/wheels.yml",
+            "Test evidence found: dirs=0, files=1023",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/feature_request.yaml, .github/ISSUE_TEMPLATE/pdep_vote.yaml, .github/ISSUE_TEMPLATE/documentation_improvement.yaml, .github/ISSUE_TEMPLATE/performance_issue.yaml, .github/ISSUE_TEMPLATE/bug_report.yaml, .github/ISSUE_TEMPLATE/installation_issue.yaml, .github/ISSUE_TEMPLATE/submit_question.yml, .github/PULL_REQUEST_TEMPLATE.md",
+            "Dependency declaration files found: environment.yml, pyproject.toml",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml",
+            "Remediation workflow terms found: patch"
+        ],
+        "issues": [
+            "No SECURITY.md or vulnerability reporting process found",
+            "No contribution/governance files found",
+            "No changelog/release metadata found",
+            "No dependency lock files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "security_policy_files": [],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [
+            ".github/workflows/codeql.yml",
+            ".github/workflows/dependency-review.yml",
+            ".github/workflows/scorecards.yml"
+        ],
+        "ci_workflows": [
+            ".github/workflows/dependency-review.yml",
+            ".github/workflows/linux_simd.yml",
+            ".github/workflows/mypy_primer.yml",
+            ".github/workflows/circleci.yml",
+            ".github/workflows/linux.yml",
+            ".github/workflows/cygwin.yml",
+            ".github/workflows/linux_qemu.yml",
+            ".github/workflows/linux_blas.yml",
+            ".github/workflows/labeler.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/windows.yml",
+            ".github/workflows/stubtest.yml",
+            ".github/workflows/scorecards.yml",
+            ".github/workflows/pixi-packages.yml",
+            ".github/workflows/mypy_primer_comment.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/compiler_sanitizers.yml",
+            ".github/workflows/typecheck.yml",
+            ".github/workflows/linux-ibm.yml",
+            ".github/workflows/macos.yml",
+            ".github/workflows/emscripten.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 186,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/feature-request.yml",
+            ".github/ISSUE_TEMPLATE/documentation.yml",
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/bug-report.yml",
+            ".github/ISSUE_TEMPLATE/post-install.yml",
+            ".github/ISSUE_TEMPLATE/typing.yml",
+            ".github/PULL_REQUEST_TEMPLATE.md"
+        ],
+        "governance_files": [
+            "CONTRIBUTING.rst",
+            ".github/CONTRIBUTING.md"
+        ],
+        "release_files": [],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml",
+            "numpy/f2py/setup.cfg",
+            "numpy/_core/tests/examples/cython/setup.py",
+            "numpy/_core/tests/examples/limited_api/setup.py",
+            "tools/swig/test/setup.py"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            "pyproject.toml",
+            "ruff.toml"
+        ],
+        "static_analysis_tools": [
+            "flake8",
+            "isort",
+            "mypy",
+            "pylint",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [
+                "vulnerability"
+            ],
+            "dependency_updates": [],
+            "remediation_workflow": [
+                "patch"
+            ],
+            "testing_quality": [
+                "pytest",
+                "ci"
+            ],
+            "static_analysis": [
+                "mypy"
+            ]
+        },
+        "evidence": [
+            "Vulnerability reporting terms found: vulnerability",
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security scanning workflows found: .github/workflows/codeql.yml, .github/workflows/dependency-review.yml, .github/workflows/scorecards.yml",
+            "CI/build workflows found: .github/workflows/dependency-review.yml, .github/workflows/linux_simd.yml, .github/workflows/mypy_primer.yml, .github/workflows/circleci.yml, .github/workflows/linux.yml, .github/workflows/cygwin.yml, .github/workflows/linux_qemu.yml, .github/workflows/linux_blas.yml, .github/workflows/labeler.yml, .github/workflows/codeql.yml",
+            "Test evidence found: dirs=0, files=186",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/feature-request.yml, .github/ISSUE_TEMPLATE/documentation.yml, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/bug-report.yml, .github/ISSUE_TEMPLATE/post-install.yml, .github/ISSUE_TEMPLATE/typing.yml, .github/PULL_REQUEST_TEMPLATE.md",
+            "Contribution/governance files found: CONTRIBUTING.rst, .github/CONTRIBUTING.md",
+            "Dependency declaration files found: environment.yml, pyproject.toml, numpy/f2py/setup.cfg, numpy/_core/tests/examples/cython/setup.py, numpy/_core/tests/examples/limited_api/setup.py, tools/swig/test/setup.py",
+            "Static-analysis/linting configuration found: pyproject.toml, ruff.toml",
+            "Remediation workflow terms found: patch"
+        ],
+        "issues": [
+            "No changelog/release metadata found",
+            "No dependency lock files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "security_policy_files": [
+            "SECURITY.md"
+        ],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [
+            ".github/workflows/codeql-analysis.yml"
+        ],
+        "ci_workflows": [
+            "azure-pipelines.yml",
+            "tox.ini",
+            ".github/workflows/nightlies.yml",
+            ".github/workflows/autoclose_comment.yml",
+            ".github/workflows/tests.yml",
+            ".github/workflows/good-first-issue.yml",
+            ".github/workflows/mypy-stubtest.yml",
+            ".github/workflows/cibuildwheel.yml",
+            ".github/workflows/pr_welcome.yml",
+            ".github/workflows/circleci.yml",
+            ".github/workflows/linting.yml",
+            ".github/workflows/wasm.yml",
+            ".github/workflows/triage_board.yml",
+            ".github/workflows/cygwin.yml",
+            ".github/workflows/do_not_merge.yml",
+            ".github/workflows/codeql-analysis.yml",
+            ".github/workflows/labeler.yml",
+            ".github/workflows/stale-tidy.yml",
+            ".github/workflows/stale.yml",
+            ".github/workflows/clean_pr.yml",
+            ".github/workflows/conflictcheck.yml",
+            ".github/workflows/autoclose_schedule.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 134,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/documentation.yml",
+            ".github/ISSUE_TEMPLATE/maintenance.yml",
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/feature_request.yml",
+            ".github/ISSUE_TEMPLATE/bug_report.yml",
+            ".github/ISSUE_TEMPLATE/tag_proposal.yml",
+            ".github/PULL_REQUEST_TEMPLATE.md"
+        ],
+        "governance_files": [
+            ".github/CONTRIBUTING.md",
+            "CODE_OF_CONDUCT.md"
+        ],
+        "release_files": [],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml",
+            "lib/matplotlib/backends/web_backend/package.json"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml",
+            "tox.ini"
+        ],
+        "static_analysis_tools": [
+            "black",
+            "isort",
+            "mypy",
+            "pre-commit",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [
+                "vulnerability"
+            ],
+            "dependency_updates": [
+                "dependabot"
+            ],
+            "remediation_workflow": [],
+            "testing_quality": [
+                "pytest",
+                "tox",
+                "coverage",
+                "ci"
+            ],
+            "static_analysis": [
+                "ruff",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Security policy found: SECURITY.md",
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security scanning workflows found: .github/workflows/codeql-analysis.yml",
+            "CI/build workflows found: azure-pipelines.yml, tox.ini, .github/workflows/nightlies.yml, .github/workflows/autoclose_comment.yml, .github/workflows/tests.yml, .github/workflows/good-first-issue.yml, .github/workflows/mypy-stubtest.yml, .github/workflows/cibuildwheel.yml, .github/workflows/pr_welcome.yml, .github/workflows/circleci.yml",
+            "Test evidence found: dirs=0, files=134",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/documentation.yml, .github/ISSUE_TEMPLATE/maintenance.yml, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/feature_request.yml, .github/ISSUE_TEMPLATE/bug_report.yml, .github/ISSUE_TEMPLATE/tag_proposal.yml, .github/PULL_REQUEST_TEMPLATE.md",
+            "Contribution/governance files found: .github/CONTRIBUTING.md, CODE_OF_CONDUCT.md",
+            "Dependency declaration files found: environment.yml, pyproject.toml, lib/matplotlib/backends/web_backend/package.json",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml, tox.ini"
+        ],
+        "issues": [
+            "No changelog/release metadata found",
+            "No dependency lock files found",
+            "No remediation workflow evidence found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "security_policy_files": [
+            "SECURITY.md"
+        ],
+        "dependency_update_files": [],
+        "security_workflows": [],
+        "ci_workflows": [
+            "tox.ini",
+            ".github/workflows/auto-close-llm-pr.yml",
+            ".github/workflows/tests-windows.yml",
+            ".github/workflows/tests-ubuntu.yml",
+            ".github/workflows/publish.yml",
+            ".github/workflows/tests-macos.yml",
+            ".github/workflows/checks.yml"
+        ],
+        "test_dirs": [
+            "tests"
+        ],
+        "test_file_count": 139,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/bug_report.md",
+            ".github/ISSUE_TEMPLATE/feature_request.md",
+            ".github/ISSUE_TEMPLATE/question.md"
+        ],
+        "governance_files": [
+            "CONTRIBUTING.md",
+            "CODE_OF_CONDUCT.md"
+        ],
+        "release_files": [],
+        "dependency_files": [
+            "pyproject.toml",
+            "docs/requirements.txt"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml",
+            "tox.ini"
+        ],
+        "static_analysis_tools": [
+            "bandit",
+            "black",
+            "flake8",
+            "isort",
+            "mypy",
+            "pre-commit",
+            "pylint",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [
+                "vulnerability"
+            ],
+            "dependency_updates": [],
+            "remediation_workflow": [
+                "patch"
+            ],
+            "testing_quality": [
+                "pytest",
+                "tox",
+                "coverage",
+                "ci"
+            ],
+            "static_analysis": [
+                "bandit",
+                "ruff",
+                "pylint",
+                "flake8",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Security policy found: SECURITY.md",
+            "Security/static-analysis terms found: bandit, ruff, pylint, flake8, mypy, pre-commit",
+            "CI/build workflows found: tox.ini, .github/workflows/auto-close-llm-pr.yml, .github/workflows/tests-windows.yml, .github/workflows/tests-ubuntu.yml, .github/workflows/publish.yml, .github/workflows/tests-macos.yml, .github/workflows/checks.yml",
+            "Test evidence found: dirs=1, files=139",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/bug_report.md, .github/ISSUE_TEMPLATE/feature_request.md, .github/ISSUE_TEMPLATE/question.md",
+            "Contribution/governance files found: CONTRIBUTING.md, CODE_OF_CONDUCT.md",
+            "Dependency declaration files found: pyproject.toml, docs/requirements.txt",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml, tox.ini",
+            "Remediation workflow terms found: patch"
+        ],
+        "issues": [
+            "No dependency update automation found",
+            "No changelog/release metadata found",
+            "No dependency lock files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 5,
+        "security_policy_files": [],
+        "dependency_update_files": [],
+        "security_workflows": [
+            ".github/workflows/zizmor.yaml"
+        ],
+        "ci_workflows": [
+            ".github/workflows/tests.yaml",
+            ".github/workflows/pre-commit.yaml",
+            ".github/workflows/publish.yaml",
+            ".github/workflows/lock.yaml",
+            ".github/workflows/zizmor.yaml"
+        ],
+        "test_dirs": [
+            "tests"
+        ],
+        "test_file_count": 27,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/bug-report.md",
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/feature-request.md"
+        ],
+        "governance_files": [],
+        "release_files": [],
+        "dependency_files": [
+            "pyproject.toml",
+            "examples/tutorial/pyproject.toml",
+            "examples/celery/requirements.txt",
+            "examples/celery/pyproject.toml",
+            "examples/javascript/pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "static_analysis_files": [
+            ".pre-commit-config.yaml",
+            "pyproject.toml"
+        ],
+        "static_analysis_tools": [
+            "flake8",
+            "isort",
+            "mypy",
+            "pre-commit",
+            "ruff"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [],
+            "dependency_updates": [],
+            "remediation_workflow": [],
+            "testing_quality": [
+                "pytest",
+                "tox",
+                "coverage",
+                "ci"
+            ],
+            "static_analysis": [
+                "ruff",
+                "flake8",
+                "mypy",
+                "pre-commit"
+            ]
+        },
+        "evidence": [
+            "Security scanning workflows found: .github/workflows/zizmor.yaml",
+            "CI/build workflows found: .github/workflows/tests.yaml, .github/workflows/pre-commit.yaml, .github/workflows/publish.yaml, .github/workflows/lock.yaml, .github/workflows/zizmor.yaml",
+            "Test evidence found: dirs=1, files=27",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/bug-report.md, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/feature-request.md",
+            "Dependency declaration files found: pyproject.toml, examples/tutorial/pyproject.toml, examples/celery/requirements.txt, examples/celery/pyproject.toml, examples/javascript/pyproject.toml",
+            "Lock files found: uv.lock",
+            "Static-analysis/linting configuration found: .pre-commit-config.yaml, pyproject.toml"
+        ],
+        "issues": [
+            "No SECURITY.md or vulnerability reporting process found",
+            "No dependency update automation found",
+            "No contribution/governance files found",
+            "No changelog/release metadata found",
+            "No remediation workflow evidence found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "maintainable_security": true,
+        "status": "passed",
+        "score": 12,
+        "minimum_score": 4,
+        "security_policy_files": [
+            "SECURITY.md"
+        ],
+        "dependency_update_files": [
+            ".github/dependabot.yml"
+        ],
+        "security_workflows": [
+            ".github/workflows/osv-scanner-scheduled.yml",
+            ".github/workflows/scorecards-analysis.yml"
+        ],
+        "ci_workflows": [
+            ".github/workflows/cffconvert.yml",
+            ".github/workflows/build-reusable.yml",
+            ".github/workflows/update-rbe.yml",
+            ".github/workflows/stale-issues.yml",
+            ".github/workflows/arm-ci.yml",
+            ".github/workflows/arm-ci-extended.yml",
+            ".github/workflows/issue-on-pr-rollback.yml",
+            ".github/workflows/arm-ci-extended-cpp.yml",
+            ".github/workflows/osv-scanner-scheduled.yml",
+            ".github/workflows/ci-build.yml",
+            ".github/workflows/scorecards-analysis.yml",
+            ".github/workflows/update-nightly.yml",
+            ".github/workflows/pylint-presubmit.yml",
+            ".github/workflows/arm-cd.yml",
+            ".github/workflows/release-branch-cherrypick.yml"
+        ],
+        "test_dirs": [],
+        "test_file_count": 1678,
+        "issue_templates": [
+            ".github/ISSUE_TEMPLATE/tflite-converter-issue.md",
+            ".github/ISSUE_TEMPLATE/tflite-in-play-services.md",
+            ".github/ISSUE_TEMPLATE/tflite-op-request.md",
+            ".github/ISSUE_TEMPLATE/config.yml",
+            ".github/ISSUE_TEMPLATE/tensorflow_issue_template.yaml",
+            ".github/ISSUE_TEMPLATE/tflite-other.md"
+        ],
+        "governance_files": [
+            "CONTRIBUTING.md",
+            "CODE_OF_CONDUCT.md"
+        ],
+        "release_files": [
+            "RELEASE.md"
+        ],
+        "dependency_files": [
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/flax_2b/requirements.txt",
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt",
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt",
+            "tensorflow/python/tpu/client/pip_package/setup.py",
+            "tensorflow/python/tpu/profiler/pip_package/setup.py",
+            "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.py",
+            "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.cfg",
+            "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.py",
+            "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.cfg"
+        ],
+        "lock_files": [],
+        "static_analysis_files": [
+            ".pylintrc"
+        ],
+        "static_analysis_tools": [
+            "pylint"
+        ],
+        "keyword_findings": {
+            "vulnerability_reporting": [
+                "vulnerability",
+                "security issue"
+            ],
+            "dependency_updates": [
+                "security update"
+            ],
+            "remediation_workflow": [
+                "patch",
+                "release process"
+            ],
+            "testing_quality": [
+                "pytest",
+                "coverage",
+                "ci",
+                "continuous integration"
+            ],
+            "static_analysis": [
+                "pylint"
+            ]
+        },
+        "evidence": [
+            "Security policy found: SECURITY.md",
+            "Dependency update automation found: .github/dependabot.yml",
+            "Security scanning workflows found: .github/workflows/osv-scanner-scheduled.yml, .github/workflows/scorecards-analysis.yml",
+            "CI/build workflows found: .github/workflows/cffconvert.yml, .github/workflows/build-reusable.yml, .github/workflows/update-rbe.yml, .github/workflows/stale-issues.yml, .github/workflows/arm-ci.yml, .github/workflows/arm-ci-extended.yml, .github/workflows/issue-on-pr-rollback.yml, .github/workflows/arm-ci-extended-cpp.yml, .github/workflows/osv-scanner-scheduled.yml, .github/workflows/ci-build.yml",
+            "Test evidence found: dirs=0, files=1678",
+            "Issue/PR templates found: .github/ISSUE_TEMPLATE/tflite-converter-issue.md, .github/ISSUE_TEMPLATE/tflite-in-play-services.md, .github/ISSUE_TEMPLATE/tflite-op-request.md, .github/ISSUE_TEMPLATE/config.yml, .github/ISSUE_TEMPLATE/tensorflow_issue_template.yaml, .github/ISSUE_TEMPLATE/tflite-other.md",
+            "Contribution/governance files found: CONTRIBUTING.md, CODE_OF_CONDUCT.md",
+            "Release/changelog files found: RELEASE.md",
+            "Dependency declaration files found: third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/flax_2b/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt, tensorflow/python/tpu/client/pip_package/setup.py, tensorflow/python/tpu/profiler/pip_package/setup.py, tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.py, tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.cfg, tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.py, tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.cfg",
+            "Static-analysis/linting configuration found: .pylintrc",
+            "Remediation workflow terms found: patch, release process"
+        ],
+        "issues": [
+            "No dependency lock files found"
+        ]
+    }
+]

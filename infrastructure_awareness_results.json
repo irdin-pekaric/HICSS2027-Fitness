@@ -1,0 +1,502 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "infrastructure_aware": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "repo_size_mb": 1.5754,
+        "file_count": 48,
+        "dependency_count": 3,
+        "dependency_files": [
+            "requirements.txt"
+        ],
+        "environment_files": [
+            "requirements.txt"
+        ],
+        "container_files": [],
+        "automation_files": [],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [],
+            "absolute_paths": [],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: requirements.txt",
+            "Repository size within threshold: 1.58 MB <= 1000 MB",
+            "Dependency count within threshold: 3 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No obvious hard-coded absolute paths detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No container/deployment specification found",
+            "No automation/CI/build workflow evidence found",
+            "No docs directory or deployment documentation found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "infrastructure_aware": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "infrastructure_aware": false,
+        "status": "failed",
+        "score": 11,
+        "minimum_score": 5,
+        "repo_size_mb": 23.4867,
+        "file_count": 1909,
+        "dependency_count": 28,
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "automation_files": [
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [
+                "cupy"
+            ],
+            "os_specific": [],
+            "absolute_paths": [],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: pyproject.toml",
+            "Container/deployment specification present: .devcontainer/devcontainer.json",
+            "Automation/CI/build workflow evidence present: .github/workflows",
+            "Repository size within threshold: 23.49 MB <= 1000 MB",
+            "Dependency count within threshold: 28 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No obvious hard-coded absolute paths detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No docs directory or deployment documentation found",
+            "Possible GPU/CUDA specialization detected: cupy"
+        ]
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "infrastructure_aware": true,
+        "status": "passed",
+        "score": 12,
+        "minimum_score": 5,
+        "repo_size_mb": 45.0309,
+        "file_count": 2504,
+        "dependency_count": 59,
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "automation_files": [
+            "Makefile",
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.rst"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [],
+            "absolute_paths": [],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.rst",
+            "Environment/dependency specification present: pyproject.toml",
+            "Container/deployment specification present: .devcontainer/devcontainer.json",
+            "Automation/CI/build workflow evidence present: Makefile, .github/workflows",
+            "Repository size within threshold: 45.03 MB <= 1000 MB",
+            "Dependency count within threshold: 59 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No obvious hard-coded absolute paths detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No docs directory or deployment documentation found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "infrastructure_aware": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "repo_size_mb": 96.2912,
+        "file_count": 4079,
+        "dependency_count": 99,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "container_files": [],
+        "automation_files": [
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [],
+            "absolute_paths": [],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: environment.yml, pyproject.toml",
+            "Automation/CI/build workflow evidence present: .github/workflows",
+            "Repository size within threshold: 96.29 MB <= 1000 MB",
+            "Dependency count within threshold: 99 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No obvious hard-coded absolute paths detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No container/deployment specification found",
+            "No docs directory or deployment documentation found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "infrastructure_aware": true,
+        "status": "passed",
+        "score": 12,
+        "minimum_score": 5,
+        "repo_size_mb": 55.2295,
+        "file_count": 2799,
+        "dependency_count": 42,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "automation_files": [
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [],
+            "absolute_paths": [],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: environment.yml, pyproject.toml",
+            "Container/deployment specification present: .devcontainer/devcontainer.json",
+            "Automation/CI/build workflow evidence present: .github/workflows",
+            "Repository size within threshold: 55.23 MB <= 1000 MB",
+            "Dependency count within threshold: 42 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No obvious hard-coded absolute paths detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No docs directory or deployment documentation found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "infrastructure_aware": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "repo_size_mb": 100.6347,
+        "file_count": 4919,
+        "dependency_count": 92,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "automation_files": [
+            "tox.ini",
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [],
+            "absolute_paths": [
+                "/users/"
+            ],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: environment.yml, pyproject.toml",
+            "Container/deployment specification present: .devcontainer/devcontainer.json",
+            "Automation/CI/build workflow evidence present: tox.ini, .github/workflows",
+            "Repository size within threshold: 100.63 MB <= 1000 MB",
+            "Dependency count within threshold: 92 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No disallowed OS-only constraint detected",
+            "No privileged container requirement detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No docs directory or deployment documentation found",
+            "Possible hard-coded absolute paths detected: /users/"
+        ]
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "infrastructure_aware": false,
+        "status": "failed",
+        "score": 10,
+        "minimum_score": 5,
+        "repo_size_mb": 7.2152,
+        "file_count": 823,
+        "dependency_count": 19,
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "container_files": [],
+        "automation_files": [
+            "tox.ini",
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.rst"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [],
+            "os_specific": [
+                "linux only"
+            ],
+            "absolute_paths": [
+                "/home/",
+                "/users/",
+                "c:/",
+                "/usr/local/"
+            ],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.rst",
+            "Environment/dependency specification present: pyproject.toml",
+            "Automation/CI/build workflow evidence present: tox.ini, .github/workflows",
+            "Documentation directory present with 53 text files",
+            "Repository size within threshold: 7.22 MB <= 1000 MB",
+            "Dependency count within threshold: 19 <= 300",
+            "No files larger than 100 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No privileged container requirement detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No container/deployment specification found",
+            "Possible OS-specific constraint detected: linux only",
+            "Possible hard-coded absolute paths detected: /home/, /users/, c:/, /usr/local/"
+        ]
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "infrastructure_aware": false,
+        "status": "failed",
+        "score": 10,
+        "minimum_score": 5,
+        "repo_size_mb": 2.8905,
+        "file_count": 289,
+        "dependency_count": 9,
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "automation_files": [
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [
+                "cupy"
+            ],
+            "os_specific": [
+                "windows only"
+            ],
+            "absolute_paths": [
+                "/home/",
+                "/users/",
+                "/var/"
+            ],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Environment/dependency specification present: pyproject.toml",
+            "Container/deployment specification present: .devcontainer/devcontainer.json",
+            "Automation/CI/build workflow evidence present: .github/workflows",
+            "Documentation directory present with 76 text files",
+            "Repository size within threshold: 2.89 MB <= 1000 MB",
+            "Dependency count within threshold: 9 <= 300",
+            "No files larger than 100 MB detected",
+            "No privileged container requirement detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "Possible GPU/CUDA specialization detected: cupy",
+            "Possible OS-specific constraint detected: windows only",
+            "Possible hard-coded absolute paths detected: /home/, /users/, /var/"
+        ]
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "infrastructure_aware": false,
+        "status": "failed",
+        "score": 8,
+        "minimum_score": 5,
+        "repo_size_mb": 567.3861,
+        "file_count": 39389,
+        "dependency_count": 0,
+        "dependency_files": [],
+        "environment_files": [],
+        "container_files": [],
+        "automation_files": [
+            ".github/workflows"
+        ],
+        "readme_files": [
+            "README.md"
+        ],
+        "large_files": [],
+        "platform_findings": {
+            "gpu_cuda": [
+                "cuda",
+                "cudnn",
+                "nvidia"
+            ],
+            "os_specific": [
+                "linux only"
+            ],
+            "absolute_paths": [
+                "c:\\\\",
+                "c:/",
+                "/usr/local/"
+            ],
+            "privileged_container": [],
+            "heavy_infrastructure": []
+        },
+        "evidence": [
+            "README present: README.md",
+            "Automation/CI/build workflow evidence present: .github/workflows",
+            "Repository size within threshold: 567.39 MB <= 5000 MB",
+            "Dependency count within threshold: 0 <= 500",
+            "No files larger than 250 MB detected",
+            "No disallowed GPU/CUDA-only requirement detected",
+            "No privileged container requirement detected",
+            "No heavy infrastructure-only dependency detected"
+        ],
+        "issues": [
+            "No dependency/environment specification found",
+            "No container/deployment specification found",
+            "No docs directory or deployment documentation found",
+            "Possible OS-specific constraint detected: linux only",
+            "Possible hard-coded absolute paths detected: c:\\\\, c:/, /usr/local/"
+        ]
+    }
+]

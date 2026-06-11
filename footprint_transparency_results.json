@@ -1,0 +1,700 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 4,
+        "minimum_score": 4,
+        "documentation_files_count": 2,
+        "documentation_files": [
+            "README.md",
+            "TABLES/README.md"
+        ],
+        "dependency_files": [
+            "requirements.txt"
+        ],
+        "dependency_count": 3,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": false,
+        "has_ci": false,
+        "runtime_evidence": [],
+        "hardware_evidence": [],
+        "platform_evidence": [
+            "os"
+        ],
+        "environment_evidence": [],
+        "performance_evidence": [
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: requirements.txt",
+            "Platform documentation terms found: os",
+            "Performance/resource documentation terms found: resource"
+        ],
+        "missing": [
+            "runtime/setup information",
+            "hardware/resource information"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "footprint_transparent": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 4,
+        "documentation_files_count": 23,
+        "documentation_files": [
+            "CONTRIBUTING.md",
+            "README.md",
+            "project_euler/README.md",
+            "blockchain/README.md",
+            "financial/README.md",
+            "boolean_algebra/README.md",
+            "data_compression/README.md",
+            "quantum/README.md",
+            "ciphers/README.md",
+            "audio_filters/README.md",
+            "backtracking/README.md",
+            "scripts/README.md",
+            ".devcontainer/README.md",
+            "linear_algebra/README.md",
+            "hashes/README.md",
+            "conversions/README.md",
+            "computer_vision/README.md",
+            "sorts/README.md",
+            "knapsack/README.md",
+            "bit_manipulation/README.md"
+        ],
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "dependency_count": 28,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": true,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "run",
+            "installation",
+            "install",
+            "setup",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "ram",
+            "storage"
+        ],
+        "platform_evidence": [
+            "os",
+            "docker",
+            "container"
+        ],
+        "environment_evidence": [
+            "requirements.txt",
+            "pip install"
+        ],
+        "performance_evidence": [
+            "time",
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: pyproject.toml",
+            "Container/deployment file present: .devcontainer/devcontainer.json",
+            "Runtime/setup documentation terms found: python, run, installation, install, setup, usage",
+            "Environment/dependency documentation terms found: requirements.txt, pip install",
+            "Platform documentation terms found: os, docker, container",
+            "Hardware/resource documentation terms found: ram, storage",
+            "Performance/resource documentation terms found: time, resource",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 4,
+        "documentation_files_count": 43,
+        "documentation_files": [
+            "CONTRIBUTING.md",
+            "README.rst",
+            "sklearn/externals/array_api_extra/README.md",
+            "sklearn/externals/array_api_compat/README.md",
+            "sklearn/datasets/images/README.txt",
+            "doc/README.md",
+            "doc/logos/README.md",
+            "doc/whats_new/upcoming_changes/README.md",
+            "doc/testimonials/README.txt",
+            "examples/README.txt",
+            "examples/impute/README.txt",
+            "examples/compose/README.txt",
+            "examples/svm/README.txt",
+            "examples/semi_supervised/README.txt",
+            "examples/release_highlights/README.txt",
+            "examples/ensemble/README.txt",
+            "examples/inspection/README.txt",
+            "examples/cluster/README.txt",
+            "examples/mixture/README.txt",
+            "examples/neighbors/README.txt"
+        ],
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "dependency_count": 59,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": true,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "run",
+            "installation",
+            "install"
+        ],
+        "hardware_evidence": [
+            "ram"
+        ],
+        "platform_evidence": [
+            "os",
+            "platform"
+        ],
+        "environment_evidence": [
+            "conda",
+            "pip install",
+            "dependencies"
+        ],
+        "performance_evidence": [
+            "benchmark",
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.rst",
+            "Dependency/environment file present: pyproject.toml",
+            "Container/deployment file present: .devcontainer/devcontainer.json",
+            "Runtime/setup documentation terms found: python, run, installation, install",
+            "Environment/dependency documentation terms found: conda, pip install, dependencies",
+            "Platform documentation terms found: os, platform",
+            "Hardware/resource documentation terms found: ram",
+            "Performance/resource documentation terms found: benchmark, resource",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "documentation_files_count": 5,
+        "documentation_files": [
+            "README.md",
+            "doc/sphinxext/README.rst",
+            "doc/cheatsheet/README.md",
+            "web/README.md",
+            "web/interactive_terminal/README.md"
+        ],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "dependency_count": 101,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": false,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "run",
+            "execute",
+            "installation",
+            "install",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "ram"
+        ],
+        "platform_evidence": [
+            "windows",
+            "linux",
+            "os"
+        ],
+        "environment_evidence": [
+            "conda",
+            "pip install",
+            "dependencies"
+        ],
+        "performance_evidence": [
+            "time"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: environment.yml",
+            "Runtime/setup documentation terms found: python, run, execute, installation, install, usage",
+            "Environment/dependency documentation terms found: conda, pip install, dependencies",
+            "Platform documentation terms found: windows, linux, os",
+            "Hardware/resource documentation terms found: ram",
+            "Performance/resource documentation terms found: time",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 4,
+        "documentation_files_count": 8,
+        "documentation_files": [
+            "README.md",
+            "numpy/linalg/lapack_lite/README.rst",
+            "numpy/_core/src/common/simd/README.md",
+            "numpy/ma/README.rst",
+            "doc/release/upcoming_changes/README.rst",
+            "benchmarks/README.rst",
+            "pixi-packages/README.md",
+            ".github/CONTRIBUTING.md"
+        ],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "dependency_count": 42,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": true,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "runtime",
+            "run",
+            "execute",
+            "execution",
+            "installation",
+            "install",
+            "setup",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "cpu",
+            "memory",
+            "ram"
+        ],
+        "platform_evidence": [
+            "windows",
+            "linux",
+            "operating system",
+            "os",
+            "platform"
+        ],
+        "environment_evidence": [
+            "conda",
+            "pip install",
+            "virtualenv",
+            "dependencies",
+            "dependency"
+        ],
+        "performance_evidence": [
+            "performance",
+            "benchmark",
+            "runtime",
+            "time"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: environment.yml",
+            "Container/deployment file present: .devcontainer/devcontainer.json",
+            "Runtime/setup documentation terms found: python, runtime, run, execute, execution, installation, install, setup",
+            "Environment/dependency documentation terms found: conda, pip install, virtualenv, dependencies, dependency",
+            "Platform documentation terms found: windows, linux, operating system, os, platform",
+            "Hardware/resource documentation terms found: cpu, memory, ram",
+            "Performance/resource documentation terms found: performance, benchmark, runtime, time",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "documentation_files_count": 12,
+        "documentation_files": [
+            "README.md",
+            "ci/schemas/README.md",
+            "doc/README.txt",
+            "doc/api/next_api_changes/README.rst",
+            "doc/release/next_whats_new/README.rst",
+            "doc/devel/MEP/README.rst",
+            "lib/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt",
+            "lib/matplotlib/mpl-data/sample_data/README.txt",
+            "lib/matplotlib/tests/data/tinypages/README.md",
+            "lib/matplotlib/tests/data/tinypages/_static/README.txt",
+            "tools/README.txt",
+            ".github/CONTRIBUTING.md"
+        ],
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "dependency_count": 94,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": true,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "installation",
+            "install",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "ram"
+        ],
+        "platform_evidence": [
+            "linux",
+            "os",
+            "platform"
+        ],
+        "environment_evidence": [
+            "conda",
+            "dependencies"
+        ],
+        "performance_evidence": [],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: environment.yml",
+            "Container/deployment file present: .devcontainer/devcontainer.json",
+            "Runtime/setup documentation terms found: python, installation, install, usage",
+            "Environment/dependency documentation terms found: conda, dependencies",
+            "Platform documentation terms found: linux, os, platform",
+            "Hardware/resource documentation terms found: ram",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": [
+            "performance/resource-footprint information"
+        ]
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "documentation_files_count": 57,
+        "documentation_files": [
+            "CONTRIBUTING.md",
+            "README.rst",
+            "INSTALL.md",
+            "docs/README.rst",
+            "sep/README.rst",
+            "docs/faq.rst",
+            "docs/versioning.rst",
+            "docs/contributing.rst",
+            "docs/requirements.txt",
+            "docs/index.rst",
+            "docs/news.rst",
+            "docs/topics/benchmarking.rst",
+            "docs/topics/jobs.rst",
+            "docs/topics/media-pipeline.rst",
+            "docs/topics/autothrottle.rst",
+            "docs/topics/stats.rst",
+            "docs/topics/download-handlers.rst",
+            "docs/topics/logging.rst",
+            "docs/topics/items.rst",
+            "docs/topics/selectors.rst"
+        ],
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "dependency_count": 19,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": false,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "runtime",
+            "run",
+            "execute",
+            "execution",
+            "installation",
+            "install",
+            "setup",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "hardware",
+            "cpu",
+            "processor",
+            "memory",
+            "ram",
+            "disk",
+            "storage"
+        ],
+        "platform_evidence": [
+            "windows",
+            "linux",
+            "macos",
+            "ubuntu",
+            "operating system",
+            "os",
+            "platform",
+            "container"
+        ],
+        "environment_evidence": [
+            "requirements.txt",
+            "conda",
+            "pip install",
+            "virtualenv",
+            "venv",
+            "dependencies",
+            "dependency"
+        ],
+        "performance_evidence": [
+            "performance",
+            "benchmark",
+            "runtime",
+            "time",
+            "seconds",
+            "minutes",
+            "memory usage",
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.rst",
+            "Dependency/environment file present: pyproject.toml",
+            "Runtime/setup documentation terms found: python, runtime, run, execute, execution, installation, install, setup",
+            "Environment/dependency documentation terms found: requirements.txt, conda, pip install, virtualenv, venv, dependencies, dependency",
+            "Platform documentation terms found: windows, linux, macos, ubuntu, operating system, os, platform, container",
+            "Hardware/resource documentation terms found: hardware, cpu, processor, memory, ram, disk, storage",
+            "Performance/resource documentation terms found: performance, benchmark, runtime, time, seconds, minutes, memory usage, resource",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 4,
+        "documentation_files_count": 81,
+        "documentation_files": [
+            "README.md",
+            "examples/tutorial/README.rst",
+            "examples/celery/README.md",
+            "examples/javascript/README.rst",
+            "src/flask/sansio/README.md",
+            "docs/async-await.rst",
+            "docs/contributing.rst",
+            "docs/testing.rst",
+            "docs/quickstart.rst",
+            "docs/logging.rst",
+            "docs/lifecycle.rst",
+            "docs/blueprints.rst",
+            "docs/appcontext.rst",
+            "docs/reqcontext.rst",
+            "docs/server.rst",
+            "docs/gevent.rst",
+            "docs/errorhandling.rst",
+            "docs/cli.rst",
+            "docs/installation.rst",
+            "docs/config.rst"
+        ],
+        "dependency_files": [
+            "pyproject.toml"
+        ],
+        "dependency_count": 9,
+        "has_readme": true,
+        "has_requirements": true,
+        "has_container": true,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "runtime",
+            "run",
+            "execute",
+            "execution",
+            "installation",
+            "install",
+            "setup",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "cpu",
+            "processor",
+            "memory",
+            "ram",
+            "storage"
+        ],
+        "platform_evidence": [
+            "windows",
+            "linux",
+            "macos",
+            "operating system",
+            "os",
+            "platform",
+            "docker",
+            "container"
+        ],
+        "environment_evidence": [
+            "requirements.txt",
+            "pip install",
+            "virtualenv",
+            "venv",
+            "dependencies",
+            "dependency"
+        ],
+        "performance_evidence": [
+            "performance",
+            "runtime",
+            "time",
+            "seconds",
+            "minutes",
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Dependency/environment file present: pyproject.toml",
+            "Container/deployment file present: .devcontainer/devcontainer.json",
+            "Runtime/setup documentation terms found: python, runtime, run, execute, execution, installation, install, setup",
+            "Environment/dependency documentation terms found: requirements.txt, pip install, virtualenv, venv, dependencies, dependency",
+            "Platform documentation terms found: windows, linux, macos, operating system, os, platform, docker, container",
+            "Hardware/resource documentation terms found: cpu, processor, memory, ram, storage",
+            "Performance/resource documentation terms found: performance, runtime, time, seconds, minutes, resource",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "footprint_transparent": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "documentation_files_count": 207,
+        "documentation_files": [
+            "CONTRIBUTING.md",
+            "README.md",
+            "ci/README.md",
+            "ci/devinfra/README.md",
+            "ci/official/README.md",
+            "ci/official/requirements_updater/README.md",
+            "ci/official/containers/ml_build/README.md",
+            "third_party/py/non_hermetic/numpy/README.md",
+            "third_party/py/numpy/README.md",
+            "third_party/xla/CONTRIBUTING.md",
+            "third_party/xla/README.md",
+            "third_party/xla/docs/contributing.md",
+            "third_party/xla/third_party/py/README.md",
+            "third_party/xla/third_party/py/numpy/README.md",
+            "third_party/xla/third_party/py/rules_pywrap/README.md",
+            "third_party/xla/third_party/tsl/README.md",
+            "third_party/xla/third_party/rules_python/python/README.md",
+            "third_party/xla/xla/README.md",
+            "third_party/xla/xla/ffi/README.md",
+            "third_party/xla/xla/backends/cpu/runtime/README.md"
+        ],
+        "dependency_files": [],
+        "dependency_count": 0,
+        "has_readme": true,
+        "has_requirements": false,
+        "has_container": false,
+        "has_ci": true,
+        "runtime_evidence": [
+            "python",
+            "runtime",
+            "run",
+            "execute",
+            "execution",
+            "installation",
+            "install",
+            "setup",
+            "usage"
+        ],
+        "hardware_evidence": [
+            "hardware",
+            "cpu",
+            "processor",
+            "memory",
+            "ram",
+            "gpu",
+            "cuda",
+            "disk",
+            "storage"
+        ],
+        "platform_evidence": [
+            "windows",
+            "linux",
+            "macos",
+            "ubuntu",
+            "operating system",
+            "os",
+            "platform",
+            "docker",
+            "container"
+        ],
+        "environment_evidence": [
+            "requirements.txt",
+            "pip install",
+            "venv",
+            "dependencies",
+            "dependency"
+        ],
+        "performance_evidence": [
+            "performance",
+            "benchmark",
+            "runtime",
+            "time",
+            "seconds",
+            "memory usage",
+            "resource"
+        ],
+        "evidence": [
+            "README present: README.md",
+            "Runtime/setup documentation terms found: python, runtime, run, execute, execution, installation, install, setup",
+            "Environment/dependency documentation terms found: requirements.txt, pip install, venv, dependencies, dependency",
+            "Platform documentation terms found: windows, linux, macos, ubuntu, operating system, os, platform, docker",
+            "Hardware/resource documentation terms found: hardware, cpu, processor, memory, ram, gpu, cuda, disk",
+            "Performance/resource documentation terms found: performance, benchmark, runtime, time, seconds, memory usage, resource",
+            "CI/workflow evidence present: .github/workflows"
+        ],
+        "missing": [
+            "dependency/environment specification"
+        ]
+    }
+]

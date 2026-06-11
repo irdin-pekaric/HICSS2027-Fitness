@@ -1,0 +1,203 @@
+{
+  "artifacts": {
+    "artifact_1": {
+      "title": "We provide our resources in a dedicated repository",
+      "uri": "https://github.com/hihey54/hicss58",
+      "description": "This repository...",
+      "resource_efficiency": {
+        "dependencies": [
+          "requests>=2.31.0",
+          "beautifulsoup4>=4.12.3",
+          "PyMuPDF>=1.23.20"
+        ],
+        "install_dependencies": true,
+        "benchmark_command": "python CODE/user_study_pdfs.py && python CODE/technical_pdfs.py && python CODE/user_study_repo.py && python CODE/technical_repo.py",
+        "max_wall_time_seconds": 300,
+        "max_peak_memory_mb": 2048,
+        "max_cpu_time_seconds": 300,
+        "max_repo_size_mb": 500,
+        "max_file_count": 50000,
+        "max_dependency_count": 200,
+        "timeout_seconds": 420
+      }
+    },
+    "artifact_2": {
+      "title": "Trending Customer Dataset",
+      "uri": "https://github.com/githubkilroy/TCN-Dataset",
+      "description": "This repository...",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": null,
+        "max_wall_time_seconds": 30,
+        "max_peak_memory_mb": 512,
+        "max_cpu_time_seconds": 30,
+        "max_repo_size_mb": 500,
+        "max_file_count": 50000,
+        "max_dependency_count": 200,
+        "timeout_seconds": 60,
+        "benchmark_note": "Benchmark not executed because the repository could not be cloned or requires authentication."
+      }
+    },
+    "artifact_3": {
+      "title": "Python algorithms",
+      "uri": "https://github.com/TheAlgorithms/Python",
+      "description": "Collection of algorithms implemented in Python for educational purposes.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q data_structures searches sorts",
+        "max_wall_time_seconds": 180,
+        "max_peak_memory_mb": 1024,
+        "max_cpu_time_seconds": 180,
+        "max_repo_size_mb": 500,
+        "max_file_count": 50000,
+        "max_dependency_count": 200,
+        "timeout_seconds": 240
+      }
+    },
+    "artifact_4": {
+      "title": "Scikit-learn",
+      "uri": "https://github.com/scikit-learn/scikit-learn",
+      "description": "A widely used Python library for machine learning, featuring classification, regression, clustering, and preprocessing.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q sklearn",
+        "max_wall_time_seconds": 240,
+        "max_peak_memory_mb": 2048,
+        "max_cpu_time_seconds": 240,
+        "max_repo_size_mb": 1000,
+        "max_file_count": 100000,
+        "max_dependency_count": 300,
+        "timeout_seconds": 300
+      }
+    },
+    "artifact_5": {
+      "title": "Pandas",
+      "uri": "https://github.com/pandas-dev/pandas",
+      "description": "Powerful data structures for data analysis, time series, and statistics in Python.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q pandas",
+        "max_wall_time_seconds": 240,
+        "max_peak_memory_mb": 2048,
+        "max_cpu_time_seconds": 240,
+        "max_repo_size_mb": 1000,
+        "max_file_count": 100000,
+        "max_dependency_count": 300,
+        "timeout_seconds": 300
+      }
+    },
+    "artifact_6": {
+      "title": "NumPy",
+      "uri": "https://github.com/numpy/numpy",
+      "description": "The fundamental package for scientific computing with Python, supporting arrays, matrices, and mathematical functions.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q numpy",
+        "max_wall_time_seconds": 240,
+        "max_peak_memory_mb": 2048,
+        "max_cpu_time_seconds": 240,
+        "max_repo_size_mb": 1000,
+        "max_file_count": 100000,
+        "max_dependency_count": 300,
+        "timeout_seconds": 300
+      }
+    },
+    "artifact_7": {
+      "title": "Matplotlib",
+      "uri": "https://github.com/matplotlib/matplotlib",
+      "description": "Comprehensive library for creating static, animated, and interactive visualizations in Python.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q lib/matplotlib",
+        "max_wall_time_seconds": 240,
+        "max_peak_memory_mb": 2048,
+        "max_cpu_time_seconds": 240,
+        "max_repo_size_mb": 1000,
+        "max_file_count": 100000,
+        "max_dependency_count": 300,
+        "timeout_seconds": 300
+      }
+    },
+    "artifact_8": {
+      "title": "Scrapy",
+      "uri": "https://github.com/scrapy/scrapy",
+      "description": "An open-source and collaborative web crawling framework for Python.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q scrapy",
+        "max_wall_time_seconds": 180,
+        "max_peak_memory_mb": 1024,
+        "max_cpu_time_seconds": 180,
+        "max_repo_size_mb": 500,
+        "max_file_count": 50000,
+        "max_dependency_count": 200,
+        "timeout_seconds": 240
+      }
+    },
+    "artifact_9": {
+      "title": "Flask",
+      "uri": "https://github.com/pallets/flask",
+      "description": "A lightweight WSGI web application framework for Python.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q src/flask",
+        "max_wall_time_seconds": 120,
+        "max_peak_memory_mb": 512,
+        "max_cpu_time_seconds": 120,
+        "max_repo_size_mb": 500,
+        "max_file_count": 50000,
+        "max_dependency_count": 200,
+        "timeout_seconds": 180
+      }
+    },
+    "artifact_10": {
+      "title": "TensorFlow",
+      "uri": "https://github.com/tensorflow/tensorflow",
+      "description": "An end-to-end open-source platform for machine learning, supporting deep learning workflows in Python.",
+      "resource_efficiency": {
+        "dependencies": [],
+        "install_dependencies": false,
+        "benchmark_command": "python -m compileall -q tensorflow",
+        "max_wall_time_seconds": 600,
+        "max_peak_memory_mb": 4096,
+        "max_cpu_time_seconds": 600,
+        "max_repo_size_mb": 5000,
+        "max_file_count": 300000,
+        "max_dependency_count": 500,
+        "timeout_seconds": 900
+      },
+        "infrastructure_awareness": {
+          "max_repo_size_mb": 5000,
+          "max_dependency_count": 500,
+          "max_large_file_mb": 250,
+          "minimum_score": 5,
+          "allow_gpu_requirement": true,
+          "allow_os_specific": false,
+          "allow_privileged_container": false
+        },
+        "recomputation_avoidance": {
+          "minimum_score": 4
+        },
+        "secure_configuration": {
+          "minimum_score": 5,
+          "max_high_severity_findings": 0,
+          "max_medium_severity_findings": 10
+        },
+        "integrity_provenance": {
+          "minimum_score": 6,
+          "max_untrusted_sources": 0
+        },
+        "maintainable_security": {
+          "minimum_score": 4
+        }
+    }
+  }
+}

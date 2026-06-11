@@ -1,0 +1,526 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "requirements.txt"
+        ],
+        "lock_files": [],
+        "update_security_files": [],
+        "dependency_count": 3,
+        "pinned_count": 0,
+        "bounded_count": 3,
+        "unpinned_count": 0,
+        "risky_dependency_count": 0,
+        "risky_patterns": [],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: requirements.txt",
+            "Declared dependencies parsed: 3",
+            "Dependency count within threshold: 3 <= 300",
+            "At least half of dependencies are pinned or bounded: 1.00",
+            "No obvious risky dependency patterns detected"
+        ],
+        "issues": [
+            "No lock file found",
+            "No Dependabot/Renovate/security workflow evidence found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "dependency_healthy": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 6,
+        "minimum_score": 4,
+        "dependency_files": [
+            "uv.lock",
+            "pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "update_security_files": [
+            ".github/dependabot.yml"
+        ],
+        "dependency_count": 21,
+        "pinned_count": 0,
+        "bounded_count": 21,
+        "unpinned_count": 0,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "uv.lock",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: uv.lock, pyproject.toml",
+            "Declared dependencies parsed: 21",
+            "Dependency count within threshold: 21 <= 300",
+            "At least half of dependencies are pinned or bounded: 1.00",
+            "Lock files found: uv.lock",
+            "Dependency update/security tooling found: .github/dependabot.yml"
+        ],
+        "issues": [
+            "Risky dependency patterns detected: dependencies=0, files=2"
+        ]
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 4,
+        "minimum_score": 4,
+        "dependency_files": [
+            "pyproject.toml",
+            "doc/binder/requirements.txt",
+            ".binder/requirements.txt"
+        ],
+        "lock_files": [],
+        "update_security_files": [
+            ".github/dependabot.yml",
+            ".github/workflows/codeql.yml"
+        ],
+        "dependency_count": 13,
+        "pinned_count": 0,
+        "bounded_count": 5,
+        "unpinned_count": 8,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": ".binder/requirements.txt",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: pyproject.toml, doc/binder/requirements.txt, .binder/requirements.txt",
+            "Declared dependencies parsed: 13",
+            "Dependency count within threshold: 13 <= 300",
+            "Dependency update/security tooling found: .github/dependabot.yml, .github/workflows/codeql.yml"
+        ],
+        "issues": [
+            "Low pinned/bounded dependency ratio: 0.38",
+            "No lock file found",
+            "Risky dependency patterns detected: dependencies=0, files=2"
+        ]
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "update_security_files": [
+            ".github/dependabot.yml",
+            ".github/workflows/codeql.yml"
+        ],
+        "dependency_count": 94,
+        "pinned_count": 50,
+        "bounded_count": 51,
+        "unpinned_count": 41,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "environment.yml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: environment.yml, pyproject.toml",
+            "Declared dependencies parsed: 94",
+            "Dependency count within threshold: 94 <= 300",
+            "At least half of dependencies are pinned or bounded: 1.07",
+            "Dependency update/security tooling found: .github/dependabot.yml, .github/workflows/codeql.yml"
+        ],
+        "issues": [
+            "No lock file found",
+            "Risky dependency patterns detected: dependencies=0, files=2"
+        ]
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml",
+            "numpy/f2py/setup.cfg",
+            "numpy/_core/tests/examples/cython/setup.py",
+            "numpy/_core/tests/examples/limited_api/setup.py",
+            "tools/swig/test/setup.py"
+        ],
+        "lock_files": [],
+        "update_security_files": [
+            ".github/dependabot.yml",
+            ".github/workflows/dependency-review.yml",
+            ".github/workflows/codeql.yml"
+        ],
+        "dependency_count": 37,
+        "pinned_count": 11,
+        "bounded_count": 11,
+        "unpinned_count": 26,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "environment.yml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "unpinned_pip_install"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: environment.yml, pyproject.toml, numpy/f2py/setup.cfg, numpy/_core/tests/examples/cython/setup.py, numpy/_core/tests/examples/limited_api/setup.py, tools/swig/test/setup.py",
+            "Declared dependencies parsed: 37",
+            "Dependency count within threshold: 37 <= 300",
+            "At least half of dependencies are pinned or bounded: 0.59",
+            "Dependency update/security tooling found: .github/dependabot.yml, .github/workflows/dependency-review.yml, .github/workflows/codeql.yml"
+        ],
+        "issues": [
+            "No lock file found",
+            "Risky dependency patterns detected: dependencies=0, files=3"
+        ]
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "environment.yml",
+            "pyproject.toml",
+            "lib/matplotlib/backends/web_backend/package.json"
+        ],
+        "lock_files": [],
+        "update_security_files": [
+            ".github/dependabot.yml"
+        ],
+        "dependency_count": 73,
+        "pinned_count": 26,
+        "bounded_count": 39,
+        "unpinned_count": 34,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "environment.yml",
+                "pattern": "unpinned_pip_install"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "unpinned_pip_install"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: environment.yml, pyproject.toml, lib/matplotlib/backends/web_backend/package.json",
+            "Declared dependencies parsed: 73",
+            "Dependency count within threshold: 73 <= 300",
+            "At least half of dependencies are pinned or bounded: 0.89",
+            "Dependency update/security tooling found: .github/dependabot.yml"
+        ],
+        "issues": [
+            "No lock file found",
+            "Risky dependency patterns detected: dependencies=0, files=3"
+        ]
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "dependency_healthy": false,
+        "status": "failed",
+        "score": 4,
+        "minimum_score": 4,
+        "dependency_files": [
+            "pyproject.toml",
+            "docs/requirements.txt"
+        ],
+        "lock_files": [],
+        "update_security_files": [],
+        "dependency_count": 89,
+        "pinned_count": 70,
+        "bounded_count": 16,
+        "unpinned_count": 5,
+        "risky_dependency_count": 3,
+        "risky_patterns": [
+            {
+                "file": "pyproject.toml",
+                "pattern": "wildcard_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "docs/requirements.txt",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: pyproject.toml, docs/requirements.txt",
+            "Declared dependencies parsed: 89",
+            "Dependency count within threshold: 89 <= 300",
+            "At least half of dependencies are pinned or bounded: 0.97"
+        ],
+        "issues": [
+            "No lock file found",
+            "No Dependabot/Renovate/security workflow evidence found",
+            "Risky dependency patterns detected: dependencies=3, files=3"
+        ]
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "dependency_healthy": true,
+        "status": "passed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "uv.lock",
+            "pyproject.toml",
+            "examples/tutorial/pyproject.toml",
+            "examples/celery/requirements.txt",
+            "examples/celery/pyproject.toml",
+            "examples/javascript/pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "update_security_files": [],
+        "dependency_count": 28,
+        "pinned_count": 21,
+        "bounded_count": 6,
+        "unpinned_count": 1,
+        "risky_dependency_count": 0,
+        "risky_patterns": [
+            {
+                "file": "uv.lock",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "wildcard_dependency"
+            },
+            {
+                "file": "pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "examples/tutorial/pyproject.toml",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "examples/javascript/pyproject.toml",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: uv.lock, pyproject.toml, examples/tutorial/pyproject.toml, examples/celery/requirements.txt, examples/celery/pyproject.toml, examples/javascript/pyproject.toml",
+            "Declared dependencies parsed: 28",
+            "Dependency count within threshold: 28 <= 300",
+            "At least half of dependencies are pinned or bounded: 0.96",
+            "Lock files found: uv.lock"
+        ],
+        "issues": [
+            "No Dependabot/Renovate/security workflow evidence found",
+            "Risky dependency patterns detected: dependencies=0, files=5"
+        ]
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "dependency_healthy": false,
+        "status": "failed",
+        "score": 5,
+        "minimum_score": 4,
+        "dependency_files": [
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/flax_2b/requirements.txt",
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt",
+            "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt",
+            "tensorflow/python/tpu/client/pip_package/setup.py",
+            "tensorflow/python/tpu/profiler/pip_package/setup.py",
+            "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.py",
+            "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.cfg",
+            "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.py",
+            "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.cfg"
+        ],
+        "lock_files": [],
+        "update_security_files": [
+            ".github/dependabot.yml"
+        ],
+        "dependency_count": 41,
+        "pinned_count": 33,
+        "bounded_count": 5,
+        "unpinned_count": 3,
+        "risky_dependency_count": 1,
+        "risky_patterns": [
+            {
+                "file": "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/python/tpu/client/pip_package/setup.py",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/python/tpu/profiler/pip_package/setup.py",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.py",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.cfg",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.py",
+                "pattern": "direct_url_dependency"
+            },
+            {
+                "file": "tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.cfg",
+                "pattern": "direct_url_dependency"
+            }
+        ],
+        "pip_audit_result": {
+            "executed": false,
+            "available": null,
+            "return_code": null,
+            "stdout": "",
+            "stderr": "",
+            "vulnerabilities_detected": null
+        },
+        "evidence": [
+            "Dependency declaration files found: third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/flax_2b/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt, tensorflow/python/tpu/client/pip_package/setup.py, tensorflow/python/tpu/profiler/pip_package/setup.py, tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.py, tensorflow/tools/pip_package/redundant_tensorflow_gpu/setup.cfg, tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.py, tensorflow/tools/pip_package/redundant_tf_nightly_gpu/setup.cfg",
+            "Declared dependencies parsed: 41",
+            "Dependency count within threshold: 41 <= 300",
+            "At least half of dependencies are pinned or bounded: 0.93",
+            "Dependency update/security tooling found: .github/dependabot.yml"
+        ],
+        "issues": [
+            "No lock file found",
+            "Risky dependency patterns detected: dependencies=1, files=8"
+        ]
+    }
+]

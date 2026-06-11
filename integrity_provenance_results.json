@@ -1,0 +1,836 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "02f4d287a0964f4badd39fb3d6613502bd195b74",
+        "git_remote": "https://github.com/hihey54/hicss58",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE"
+        ],
+        "citation_files": [],
+        "changelog_files": [],
+        "contributing_files": [],
+        "security_files": [],
+        "environment_files": [
+            "requirements.txt"
+        ],
+        "lock_files": [],
+        "container_files": [],
+        "ci_files": [],
+        "checksum_files": [],
+        "version_files": [],
+        "version_evidence": [],
+        "pinned_matches_count": 3,
+        "pinned_examples": [
+            ">=2",
+            ">=4",
+            ">=1"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: 02f4d287a096",
+            "Git remote provenance available: https://github.com/hihey54/hicss58",
+            "README present: README.md",
+            "License metadata present: LICENSE",
+            "Environment/dependency files present: requirements.txt",
+            "Version pinning or bounded versions detected: 3 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No CITATION.cff or CODEMETA.json found",
+            "No lock file found",
+            "No container/deployment files found",
+            "No CI/build workflow found",
+            "No checksum/hash files found",
+            "No explicit version/release metadata found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "integrity_provenance": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "791deb40f93c65a020f2c75e41b55c97ad566cc0",
+        "git_remote": "https://github.com/TheAlgorithms/Python",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE.md"
+        ],
+        "citation_files": [],
+        "changelog_files": [],
+        "contributing_files": [
+            "CONTRIBUTING.md"
+        ],
+        "security_files": [],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "ci_files": [
+            ".github/workflows/project_euler.yml",
+            ".github/workflows/sphinx.yml",
+            ".github/workflows/directory_writer.yml",
+            ".github/workflows/build.yml",
+            ".github/workflows/devcontainer_ci.yml",
+            ".github/workflows/ruff.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 20,
+        "pinned_examples": [
+            ">=3",
+            ">=4",
+            ">=3",
+            ">=1",
+            ">=0",
+            ">=2",
+            ">=3",
+            ">=6",
+            ">=3",
+            ">=2",
+            ">=4",
+            ">=2",
+            ">=1",
+            ">=1",
+            ">=1",
+            ">=1",
+            ">=0",
+            ">=0",
+            ">=1",
+            ">=4"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: 791deb40f93c",
+            "Git remote provenance available: https://github.com/TheAlgorithms/Python",
+            "README present: README.md",
+            "License metadata present: LICENSE.md",
+            "Environment/dependency files present: pyproject.toml",
+            "Lock files present: uv.lock",
+            "Container/deployment files present: .devcontainer/devcontainer.json",
+            "CI/build workflow files present: .github/workflows/project_euler.yml, .github/workflows/sphinx.yml, .github/workflows/directory_writer.yml, .github/workflows/build.yml, .github/workflows/devcontainer_ci.yml, .github/workflows/ruff.yml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 20 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No CITATION.cff or CODEMETA.json found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "ab6f86c1086377c19754177e0f46eb26e6282be5",
+        "git_remote": "https://github.com/scikit-learn/scikit-learn",
+        "readme_files": [
+            "README.rst"
+        ],
+        "license_files": [
+            "COPYING"
+        ],
+        "citation_files": [
+            "CITATION.cff"
+        ],
+        "changelog_files": [],
+        "contributing_files": [
+            "CONTRIBUTING.md"
+        ],
+        "security_files": [
+            "SECURITY.md"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "ci_files": [
+            ".github/workflows/publish_pypi.yml",
+            ".github/workflows/unit-tests.yml",
+            ".github/workflows/check-sdist.yml",
+            ".github/workflows/lint.yml",
+            ".github/workflows/autoclose-comment.yml",
+            ".github/workflows/bot-lint-comment.yml",
+            ".github/workflows/autoclose-schedule.yml",
+            ".github/workflows/update-lock-files.yml",
+            ".github/workflows/needs-decision.yml",
+            ".github/workflows/check-changelog.yml",
+            ".github/workflows/labeler-title-regex.yml",
+            ".github/workflows/cuda-label-remover.yml",
+            ".github/workflows/label-blank-issue.yml",
+            ".github/workflows/update_tracking_issue.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/artifact-redirector.yml",
+            ".github/workflows/cuda-ci.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/labeler-module.yml",
+            ".github/workflows/codespell.yml",
+            ".github/workflows/not-ready-for-pr-warning.yml",
+            ".github/workflows/emscripten.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [],
+        "pinned_matches_count": 21,
+        "pinned_examples": [
+            "==3",
+            ">=1",
+            ">=1",
+            ">=1",
+            ">=2",
+            ">=3",
+            ">=3",
+            ">=1",
+            ">=1",
+            ">=3",
+            ">=0",
+            ">=1",
+            ">=1",
+            ">=1",
+            ">=2",
+            ">=3",
+            ">=3",
+            ">=1",
+            ">=0",
+            ">=3"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: ab6f86c10863",
+            "Git remote provenance available: https://github.com/scikit-learn/scikit-learn",
+            "README present: README.rst",
+            "License metadata present: COPYING",
+            "Citation/provenance metadata present: CITATION.cff",
+            "Environment/dependency files present: pyproject.toml",
+            "Container/deployment files present: .devcontainer/devcontainer.json",
+            "CI/build workflow files present: .github/workflows/publish_pypi.yml, .github/workflows/unit-tests.yml, .github/workflows/check-sdist.yml, .github/workflows/lint.yml, .github/workflows/autoclose-comment.yml, .github/workflows/bot-lint-comment.yml, .github/workflows/autoclose-schedule.yml, .github/workflows/update-lock-files.yml, .github/workflows/needs-decision.yml, .github/workflows/check-changelog.yml",
+            "Version pinning or bounded versions detected: 21 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No lock file found",
+            "No checksum/hash files found",
+            "No explicit version/release metadata found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "dc7aa11de3574662d718338f0d76a28c6b27c40d",
+        "git_remote": "https://github.com/pandas-dev/pandas",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE"
+        ],
+        "citation_files": [
+            "CITATION.cff"
+        ],
+        "changelog_files": [],
+        "contributing_files": [],
+        "security_files": [],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "container_files": [],
+        "ci_files": [
+            ".github/workflows/unit-tests.yml",
+            ".github/workflows/cache-cleanup.yml",
+            ".github/workflows/package-checks.yml",
+            ".github/workflows/update-pixi-lock.yml",
+            ".github/workflows/comment-commands.yml",
+            ".github/workflows/code-checks.yml",
+            ".github/workflows/stale-pr.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/docbuild-and-upload.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/deprecation-tracking-bot.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 20,
+        "pinned_examples": [
+            ">=3",
+            ">=1",
+            ">=0",
+            ">=8",
+            ">=3",
+            ">=4",
+            ">=5",
+            ">=1",
+            ">=1",
+            ">=4",
+            ">=1",
+            ">=2",
+            ">=2",
+            ">=1",
+            ">=6",
+            ">=2",
+            ">=3",
+            ">=5",
+            ">=3",
+            ">=0"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: dc7aa11de357",
+            "Git remote provenance available: https://github.com/pandas-dev/pandas",
+            "README present: README.md",
+            "License metadata present: LICENSE",
+            "Citation/provenance metadata present: CITATION.cff",
+            "Environment/dependency files present: environment.yml, pyproject.toml",
+            "CI/build workflow files present: .github/workflows/unit-tests.yml, .github/workflows/cache-cleanup.yml, .github/workflows/package-checks.yml, .github/workflows/update-pixi-lock.yml, .github/workflows/comment-commands.yml, .github/workflows/code-checks.yml, .github/workflows/stale-pr.yml, .github/workflows/codeql.yml, .github/workflows/docbuild-and-upload.yml, .github/workflows/wheels.yml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 20 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No lock file found",
+            "No container/deployment files found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 10,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "78e8ddee409f725d2fe1b0b24047d02aba8939a9",
+        "git_remote": "https://github.com/numpy/numpy",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE.txt"
+        ],
+        "citation_files": [],
+        "changelog_files": [],
+        "contributing_files": [
+            "CONTRIBUTING.rst",
+            ".github/CONTRIBUTING.md"
+        ],
+        "security_files": [],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "ci_files": [
+            ".github/workflows/dependency-review.yml",
+            ".github/workflows/linux_simd.yml",
+            ".github/workflows/mypy_primer.yml",
+            ".github/workflows/circleci.yml",
+            ".github/workflows/linux.yml",
+            ".github/workflows/cygwin.yml",
+            ".github/workflows/linux_qemu.yml",
+            ".github/workflows/linux_blas.yml",
+            ".github/workflows/labeler.yml",
+            ".github/workflows/codeql.yml",
+            ".github/workflows/windows.yml",
+            ".github/workflows/stubtest.yml",
+            ".github/workflows/scorecards.yml",
+            ".github/workflows/pixi-packages.yml",
+            ".github/workflows/mypy_primer_comment.yml",
+            ".github/workflows/wheels.yml",
+            ".github/workflows/compiler_sanitizers.yml",
+            ".github/workflows/typecheck.yml",
+            ".github/workflows/linux-ibm.yml",
+            ".github/workflows/macos.yml",
+            ".github/workflows/emscripten.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 15,
+        "pinned_examples": [
+            "==6",
+            "==0",
+            "==1",
+            "==0",
+            ">=3",
+            ">=4",
+            ">=0",
+            ">=0",
+            ">=0",
+            ">=3",
+            ">=3",
+            ">=1",
+            ">=1",
+            ">=1",
+            ">=1"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: 78e8ddee409f",
+            "Git remote provenance available: https://github.com/numpy/numpy",
+            "README present: README.md",
+            "License metadata present: LICENSE.txt",
+            "Environment/dependency files present: environment.yml, pyproject.toml",
+            "Container/deployment files present: .devcontainer/devcontainer.json",
+            "CI/build workflow files present: .github/workflows/dependency-review.yml, .github/workflows/linux_simd.yml, .github/workflows/mypy_primer.yml, .github/workflows/circleci.yml, .github/workflows/linux.yml, .github/workflows/cygwin.yml, .github/workflows/linux_qemu.yml, .github/workflows/linux_blas.yml, .github/workflows/labeler.yml, .github/workflows/codeql.yml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 15 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No CITATION.cff or CODEMETA.json found",
+            "No lock file found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "df808aae3e1b884c35ebfbd64ef58e7420958ff4",
+        "git_remote": "https://github.com/matplotlib/matplotlib",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE"
+        ],
+        "citation_files": [
+            "CITATION.cff"
+        ],
+        "changelog_files": [],
+        "contributing_files": [
+            ".github/CONTRIBUTING.md"
+        ],
+        "security_files": [
+            "SECURITY.md"
+        ],
+        "environment_files": [
+            "environment.yml",
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "ci_files": [
+            "azure-pipelines.yml",
+            "tox.ini",
+            ".github/workflows/nightlies.yml",
+            ".github/workflows/autoclose_comment.yml",
+            ".github/workflows/tests.yml",
+            ".github/workflows/good-first-issue.yml",
+            ".github/workflows/mypy-stubtest.yml",
+            ".github/workflows/cibuildwheel.yml",
+            ".github/workflows/pr_welcome.yml",
+            ".github/workflows/circleci.yml",
+            ".github/workflows/linting.yml",
+            ".github/workflows/wasm.yml",
+            ".github/workflows/triage_board.yml",
+            ".github/workflows/cygwin.yml",
+            ".github/workflows/do_not_merge.yml",
+            ".github/workflows/codeql-analysis.yml",
+            ".github/workflows/labeler.yml",
+            ".github/workflows/stale-tidy.yml",
+            ".github/workflows/stale.yml",
+            ".github/workflows/clean_pr.yml",
+            ".github/workflows/conflictcheck.yml",
+            ".github/workflows/autoclose_schedule.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 22,
+        "pinned_examples": [
+            ">=1",
+            ">=0",
+            ">=4",
+            ">=3",
+            ">=1",
+            ">=2",
+            ">=0",
+            ">=1",
+            ">=9",
+            ">=3",
+            ">=3",
+            ">=2",
+            ">=1",
+            ">=2",
+            ">=3",
+            ">=0",
+            ">=0",
+            ">=1",
+            ">=0",
+            ">=5"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: df808aae3e1b",
+            "Git remote provenance available: https://github.com/matplotlib/matplotlib",
+            "README present: README.md",
+            "License metadata present: LICENSE",
+            "Citation/provenance metadata present: CITATION.cff",
+            "Environment/dependency files present: environment.yml, pyproject.toml",
+            "Container/deployment files present: .devcontainer/devcontainer.json",
+            "CI/build workflow files present: azure-pipelines.yml, tox.ini, .github/workflows/nightlies.yml, .github/workflows/autoclose_comment.yml, .github/workflows/tests.yml, .github/workflows/good-first-issue.yml, .github/workflows/mypy-stubtest.yml, .github/workflows/cibuildwheel.yml, .github/workflows/pr_welcome.yml, .github/workflows/circleci.yml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 22 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No lock file found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 9,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "2d007bc4508423bbd57ee9017da22c16bbd576e1",
+        "git_remote": "https://github.com/scrapy/scrapy",
+        "readme_files": [
+            "README.rst"
+        ],
+        "license_files": [
+            "LICENSE"
+        ],
+        "citation_files": [],
+        "changelog_files": [],
+        "contributing_files": [
+            "CONTRIBUTING.md"
+        ],
+        "security_files": [
+            "SECURITY.md"
+        ],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "lock_files": [],
+        "container_files": [],
+        "ci_files": [
+            "tox.ini",
+            ".github/workflows/auto-close-llm-pr.yml",
+            ".github/workflows/tests-windows.yml",
+            ".github/workflows/tests-ubuntu.yml",
+            ".github/workflows/publish.yml",
+            ".github/workflows/tests-macos.yml",
+            ".github/workflows/checks.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 41,
+        "pinned_examples": [
+            "==1",
+            "==0",
+            "==2",
+            "==2",
+            "==2",
+            "==2",
+            "==2",
+            "==3",
+            "==2",
+            "==4",
+            "==1",
+            "==0",
+            "==0",
+            "==3",
+            "==4",
+            "==4",
+            "==6",
+            "==2",
+            "==3",
+            "==2"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: 2d007bc45084",
+            "Git remote provenance available: https://github.com/scrapy/scrapy",
+            "README present: README.rst",
+            "License metadata present: LICENSE",
+            "Environment/dependency files present: pyproject.toml",
+            "CI/build workflow files present: tox.ini, .github/workflows/auto-close-llm-pr.yml, .github/workflows/tests-windows.yml, .github/workflows/tests-ubuntu.yml, .github/workflows/publish.yml, .github/workflows/tests-macos.yml, .github/workflows/checks.yml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 41 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No CITATION.cff or CODEMETA.json found",
+            "No lock file found",
+            "No container/deployment files found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "integrity_provenance": true,
+        "status": "passed",
+        "score": 11,
+        "minimum_score": 5,
+        "has_git": true,
+        "git_commit": "7374c85ddefc3f4b177a698ab9f0cbb6a5c0b392",
+        "git_remote": "https://github.com/pallets/flask",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE.txt"
+        ],
+        "citation_files": [],
+        "changelog_files": [],
+        "contributing_files": [],
+        "security_files": [],
+        "environment_files": [
+            "pyproject.toml"
+        ],
+        "lock_files": [
+            "uv.lock"
+        ],
+        "container_files": [
+            ".devcontainer/devcontainer.json"
+        ],
+        "ci_files": [
+            ".github/workflows/tests.yaml",
+            ".github/workflows/pre-commit.yaml",
+            ".github/workflows/publish.yaml",
+            ".github/workflows/lock.yaml",
+            ".github/workflows/zizmor.yaml"
+        ],
+        "checksum_files": [],
+        "version_files": [
+            "pyproject.toml"
+        ],
+        "version_evidence": [
+            "pyproject.toml"
+        ],
+        "pinned_matches_count": 29,
+        "pinned_examples": [
+            "==1",
+            "==8",
+            "==2",
+            "==3",
+            "==2",
+            "==3",
+            "==5",
+            "==4",
+            "==3",
+            "==1",
+            "==5",
+            "==8",
+            "==0",
+            "==1",
+            "==0",
+            "==2",
+            "==2",
+            "==3",
+            "==5",
+            "==2"
+        ],
+        "untrusted_sources_count": 0,
+        "untrusted_source_patterns": [],
+        "evidence": [
+            "Git metadata present with commit hash: 7374c85ddefc",
+            "Git remote provenance available: https://github.com/pallets/flask",
+            "README present: README.md",
+            "License metadata present: LICENSE.txt",
+            "Environment/dependency files present: pyproject.toml",
+            "Lock files present: uv.lock",
+            "Container/deployment files present: .devcontainer/devcontainer.json",
+            "CI/build workflow files present: .github/workflows/tests.yaml, .github/workflows/pre-commit.yaml, .github/workflows/publish.yaml, .github/workflows/lock.yaml, .github/workflows/zizmor.yaml",
+            "Version/release metadata present: pyproject.toml",
+            "Version pinning or bounded versions detected: 29 matches",
+            "Untrusted dependency-source patterns within threshold: 0 <= 0"
+        ],
+        "issues": [
+            "No CITATION.cff or CODEMETA.json found",
+            "No checksum/hash files found"
+        ]
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "integrity_provenance": false,
+        "status": "failed",
+        "score": 7,
+        "minimum_score": 6,
+        "has_git": true,
+        "git_commit": "bf296b0953cab3cf5fcf10603ddcc23ead5132f7",
+        "git_remote": "https://github.com/tensorflow/tensorflow",
+        "readme_files": [
+            "README.md"
+        ],
+        "license_files": [
+            "LICENSE"
+        ],
+        "citation_files": [
+            "CITATION.cff"
+        ],
+        "changelog_files": [
+            "RELEASE.md"
+        ],
+        "contributing_files": [
+            "CONTRIBUTING.md"
+        ],
+        "security_files": [
+            "SECURITY.md"
+        ],
+        "environment_files": [],
+        "lock_files": [],
+        "container_files": [],
+        "ci_files": [
+            ".github/workflows/cffconvert.yml",
+            ".github/workflows/build-reusable.yml",
+            ".github/workflows/update-rbe.yml",
+            ".github/workflows/stale-issues.yml",
+            ".github/workflows/arm-ci.yml",
+            ".github/workflows/arm-ci-extended.yml",
+            ".github/workflows/issue-on-pr-rollback.yml",
+            ".github/workflows/arm-ci-extended-cpp.yml",
+            ".github/workflows/osv-scanner-scheduled.yml",
+            ".github/workflows/ci-build.yml",
+            ".github/workflows/scorecards-analysis.yml",
+            ".github/workflows/update-nightly.yml",
+            ".github/workflows/pylint-presubmit.yml",
+            ".github/workflows/arm-cd.yml",
+            ".github/workflows/release-branch-cherrypick.yml"
+        ],
+        "checksum_files": [],
+        "version_files": [],
+        "version_evidence": [],
+        "pinned_matches_count": 35,
+        "pinned_examples": [
+            "==2",
+            "==0",
+            "==1",
+            "==0",
+            "==2",
+            "==3",
+            "==4",
+            "==6",
+            "==0",
+            "==0",
+            "==3",
+            "==0",
+            "==0",
+            "==1",
+            "==1",
+            "==2",
+            "==3",
+            "==0",
+            "==0",
+            "==6"
+        ],
+        "untrusted_sources_count": 1,
+        "untrusted_source_patterns": [
+            "http://"
+        ],
+        "evidence": [
+            "Git metadata present with commit hash: bf296b0953ca",
+            "Git remote provenance available: https://github.com/tensorflow/tensorflow",
+            "README present: README.md",
+            "License metadata present: LICENSE",
+            "Citation/provenance metadata present: CITATION.cff",
+            "CI/build workflow files present: .github/workflows/cffconvert.yml, .github/workflows/build-reusable.yml, .github/workflows/update-rbe.yml, .github/workflows/stale-issues.yml, .github/workflows/arm-ci.yml, .github/workflows/arm-ci-extended.yml, .github/workflows/issue-on-pr-rollback.yml, .github/workflows/arm-ci-extended-cpp.yml, .github/workflows/osv-scanner-scheduled.yml, .github/workflows/ci-build.yml",
+            "Version pinning or bounded versions detected: 35 matches"
+        ],
+        "issues": [
+            "No environment/dependency files found",
+            "No lock file found",
+            "No container/deployment files found",
+            "No checksum/hash files found",
+            "No explicit version/release metadata found",
+            "Untrusted dependency-source patterns exceed threshold: 1 > 0"
+        ]
+    }
+]

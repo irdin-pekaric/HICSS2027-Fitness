@@ -1,0 +1,604 @@
+[
+    {
+        "artifact_id": "artifact_1",
+        "title": "We provide our resources in a dedicated repository",
+        "uri": "https://github.com/hihey54/hicss58",
+        "recomputation_avoidant": false,
+        "status": "failed",
+        "score": 3,
+        "minimum_score": 4,
+        "python_file_count": 5,
+        "notebook_count": 0,
+        "workflow_file_count": 1,
+        "config_file_count": 0,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [],
+            "checkpointing": [],
+            "parameterization": [
+                "parameter",
+                "parameters"
+            ],
+            "workflow_modularity": [],
+            "intermediate_outputs": [],
+            "incremental_execution": []
+        },
+        "evidence": [
+            "Parameterization evidence found: parameter, parameters",
+            "Workflow/build files found: requirements.txt",
+            "Modular script structure detected: 5 Python files"
+        ],
+        "missing": [
+            "No caching evidence detected",
+            "No checkpoint/resume evidence detected",
+            "No intermediate output evidence detected",
+            "No incremental/rerun evidence detected"
+        ]
+    },
+    {
+        "artifact_id": "artifact_2",
+        "title": "Trending Customer Dataset",
+        "uri": "https://github.com/githubkilroy/TCN-Dataset",
+        "recomputation_avoidant": false,
+        "status": "not_evaluated_repository_unavailable",
+        "reason": "Repository could not be cloned."
+    },
+    {
+        "artifact_id": "artifact_3",
+        "title": "Python algorithms",
+        "uri": "https://github.com/TheAlgorithms/Python",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "python_file_count": 1381,
+        "notebook_count": 0,
+        "workflow_file_count": 8,
+        "config_file_count": 20,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching",
+                "lru_cache"
+            ],
+            "checkpointing": [
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "parameter",
+                "parameters",
+                "yaml",
+                "toml"
+            ],
+            "workflow_modularity": [
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "save"
+            ],
+            "incremental_execution": [
+                "force"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching, lru_cache",
+            "Checkpoint/resume evidence found: restore",
+            "Parameterization evidence found: config, parameter, parameters, yaml, toml",
+            "Configuration files found: .gitpod.yml, pyproject.toml, .pre-commit-config.yaml, audio_filters/loudness_curve.json, scripts/project_euler_answers.json, .devcontainer/devcontainer.json, .vscode/settings.json, .github/stale.yml",
+            "Workflow/modularity terms found: workflow, stage, task, step",
+            "Workflow/build files found: pyproject.toml, .devcontainer/Dockerfile, .github/workflows/project_euler.yml, .github/workflows/sphinx.yml, .github/workflows/directory_writer.yml, .github/workflows/build.yml, .github/workflows/devcontainer_ci.yml, .github/workflows/ruff.yml",
+            "Intermediate output evidence found: intermediate, save",
+            "Incremental/rerun evidence found: force",
+            "Modular script structure detected: 1381 Python files"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_4",
+        "title": "Scikit-learn",
+        "uri": "https://github.com/scikit-learn/scikit-learn",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "python_file_count": 997,
+        "notebook_count": 0,
+        "workflow_file_count": 29,
+        "config_file_count": 53,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching",
+                "joblib.memory",
+                "lru_cache"
+            ],
+            "checkpointing": [
+                "resume",
+                "restart",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "argparse",
+                "yaml",
+                "toml",
+                "--output"
+            ],
+            "workflow_modularity": [
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "save",
+                "pickle.dump"
+            ],
+            "incremental_execution": [
+                "incremental",
+                "exists()",
+                "overwrite",
+                "force",
+                "rerun"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching, joblib.memory, lru_cache",
+            "Checkpoint/resume evidence found: resume, restart, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, argparse, yaml, toml, --output",
+            "Configuration files found: .codecov.yml, pyproject.toml, .pre-commit-config.yaml, .circleci/config.yml, doc/jupyter-lite.json, doc/jupyter_lite_config.json, .devcontainer/devcontainer.json, build_tools/github/pylatest_conda_forge_cuda_array-api_linux-64_environment.yml",
+            "Workflow/modularity terms found: pipeline, workflow, stage, task, step",
+            "Workflow/build files found: Makefile, pyproject.toml, doc/Makefile, doc/testimonials/images/Makefile, doc/binder/requirements.txt, build_tools/Makefile, .binder/requirements.txt, .github/workflows/publish_pypi.yml",
+            "Intermediate output evidence found: intermediate, save, pickle.dump",
+            "Incremental/rerun evidence found: incremental, exists(), overwrite, force, rerun",
+            "Modular script structure detected: 997 Python files"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_5",
+        "title": "Pandas",
+        "uri": "https://github.com/pandas-dev/pandas",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "python_file_count": 1509,
+        "notebook_count": 1,
+        "workflow_file_count": 13,
+        "config_file_count": 55,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching"
+            ],
+            "checkpointing": [
+                "checkpoint",
+                "restart",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "argparse",
+                "yaml",
+                "toml",
+                "--config"
+            ],
+            "workflow_modularity": [
+                "makefile",
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "save",
+                "savefig",
+                "to_csv",
+                "to_json",
+                "pickle.dump"
+            ],
+            "incremental_execution": [
+                "incremental",
+                "overwrite",
+                "force"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching",
+            "Checkpoint/resume evidence found: checkpoint, restart, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, argparse, yaml, toml, --config",
+            "Configuration files found: pyright_reportGeneralTypeIssues.json, pixi.toml, codecov.yml, environment.yml, pyproject.toml, .pre-commit-config.yaml, ci/deps/actions-311-minimum_versions.yaml, ci/deps/actions-313-downstream_compat.yaml",
+            "Workflow/modularity terms found: makefile, pipeline, workflow, stage, task, step",
+            "Workflow/build files found: environment.yml, pyproject.toml, .github/workflows/unit-tests.yml, .github/workflows/cache-cleanup.yml, .github/workflows/package-checks.yml, .github/workflows/update-pixi-lock.yml, .github/workflows/comment-commands.yml, .github/workflows/code-checks.yml",
+            "Intermediate output evidence found: intermediate, save, savefig, to_csv, to_json, pickle.dump",
+            "Incremental/rerun evidence found: incremental, overwrite, force",
+            "Modular script structure detected: 1509 Python files",
+            "Notebook-based executable workflow detected: 1 notebooks"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_6",
+        "title": "NumPy",
+        "uri": "https://github.com/numpy/numpy",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "python_file_count": 494,
+        "notebook_count": 0,
+        "workflow_file_count": 30,
+        "config_file_count": 50,
+        "output_cache_dirs": [
+            "doc/source/f2py/code/results"
+        ],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching",
+                "memoize"
+            ],
+            "checkpointing": [
+                "resume",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "argparse",
+                "yaml",
+                "toml",
+                "--config",
+                "--output"
+            ],
+            "workflow_modularity": [
+                "makefile",
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "output_dir",
+                "save",
+                "pickle.dump",
+                "np.save"
+            ],
+            "incremental_execution": [
+                "exists()",
+                "is_file()",
+                "isdir",
+                "overwrite",
+                "force"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching, memoize",
+            "Checkpoint/resume evidence found: resume, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, argparse, yaml, toml, --config",
+            "Configuration files found: environment.yml, .codecov.yml, ruff.toml, pyproject.toml, pytest.ini, .circleci/config.yml, numpy/typing/tests/data/mypy.ini, numpy/f2py/setup.cfg",
+            "Workflow/modularity terms found: makefile, pipeline, workflow, stage, task, step",
+            "Workflow/build files found: environment.yml, pyproject.toml, numpy/_core/tests/examples/cython/setup.py, numpy/_core/tests/examples/limited_api/setup.py, doc/Makefile, doc/neps/Makefile, tools/swig/Makefile, tools/swig/test/setup.py",
+            "Intermediate output evidence found: intermediate, output_dir, save, pickle.dump, np.save",
+            "Output/cache directories found: doc/source/f2py/code/results",
+            "Incremental/rerun evidence found: exists(), is_file(), isdir, overwrite, force",
+            "Modular script structure detected: 494 Python files"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_7",
+        "title": "Matplotlib",
+        "uri": "https://github.com/matplotlib/matplotlib",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "python_file_count": 913,
+        "notebook_count": 3,
+        "workflow_file_count": 24,
+        "config_file_count": 54,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching",
+                "lru_cache"
+            ],
+            "checkpointing": [
+                "resume",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "yaml",
+                "toml",
+                "--config",
+                "--output"
+            ],
+            "workflow_modularity": [
+                "makefile",
+                "nextflow",
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "save",
+                "savefig",
+                "np.save"
+            ],
+            "incremental_execution": [
+                "exists()",
+                "is_file()",
+                "overwrite",
+                "force",
+                "rerun"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching, lru_cache",
+            "Checkpoint/resume evidence found: resume, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, yaml, toml, --config, --output",
+            "Configuration files found: .meeseeksdev.yml, .yamllint.yml, .appveyor.yml, azure-pipelines.yml, environment.yml, pyproject.toml, .pre-commit-config.yaml, tox.ini",
+            "Workflow/modularity terms found: makefile, nextflow, pipeline, workflow, stage, task, step",
+            "Workflow/build files found: environment.yml, pyproject.toml, tox.ini, doc/Makefile, .github/workflows/nightlies.yml, .github/workflows/autoclose_comment.yml, .github/workflows/tests.yml, .github/workflows/good-first-issue.yml",
+            "Intermediate output evidence found: intermediate, save, savefig, np.save",
+            "Incremental/rerun evidence found: exists(), is_file(), overwrite, force, rerun",
+            "Modular script structure detected: 913 Python files",
+            "Notebook-based executable workflow detected: 3 notebooks"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_8",
+        "title": "Scrapy",
+        "uri": "https://github.com/scrapy/scrapy",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "python_file_count": 437,
+        "notebook_count": 0,
+        "workflow_file_count": 10,
+        "config_file_count": 13,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching",
+                "memoize",
+                "memoization"
+            ],
+            "checkpointing": [
+                "resume",
+                "restart",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "argparse",
+                "yaml",
+                "toml",
+                "--output"
+            ],
+            "workflow_modularity": [
+                "dvc",
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "save",
+                "pickle.dump"
+            ],
+            "incremental_execution": [
+                "incremental",
+                "exists()",
+                "is_file()",
+                "isdir",
+                "overwrite",
+                "force"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching, memoize, memoization",
+            "Checkpoint/resume evidence found: resume, restart, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, argparse, yaml, toml, --output",
+            "Configuration files found: .readthedocs.yml, codecov.yml, pyproject.toml, .pre-commit-config.yaml, tox.ini, scrapy/templates/project/scrapy.cfg, tests/test_cmdline_crawl_with_pipeline/scrapy.cfg, .github/workflows/auto-close-llm-pr.yml",
+            "Workflow/modularity terms found: dvc, pipeline, workflow, stage, task, step",
+            "Workflow/build files found: pyproject.toml, tox.ini, docs/requirements.txt, docs/Makefile, .github/workflows/auto-close-llm-pr.yml, .github/workflows/tests-windows.yml, .github/workflows/tests-ubuntu.yml, .github/workflows/publish.yml",
+            "Intermediate output evidence found: save, pickle.dump",
+            "Incremental/rerun evidence found: incremental, exists(), is_file(), isdir, overwrite, force",
+            "Modular script structure detected: 437 Python files"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_9",
+        "title": "Flask",
+        "uri": "https://github.com/pallets/flask",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 7,
+        "minimum_score": 4,
+        "python_file_count": 83,
+        "notebook_count": 0,
+        "workflow_file_count": 11,
+        "config_file_count": 15,
+        "output_cache_dirs": [],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching"
+            ],
+            "checkpointing": [
+                "restart",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "click.option",
+                "yaml",
+                "toml",
+                "json config"
+            ],
+            "workflow_modularity": [
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "save",
+                "to_json"
+            ],
+            "incremental_execution": [
+                "incremental",
+                "if exists",
+                "isdir",
+                "overwrite",
+                "force"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching",
+            "Checkpoint/resume evidence found: restart, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, click.option, yaml, toml, json config",
+            "Configuration files found: .readthedocs.yaml, pyproject.toml, .pre-commit-config.yaml, .devcontainer/devcontainer.json, examples/tutorial/pyproject.toml, examples/celery/pyproject.toml, examples/javascript/pyproject.toml, tests/static/config.toml",
+            "Workflow/modularity terms found: workflow, stage, task, step",
+            "Workflow/build files found: pyproject.toml, docs/Makefile, examples/tutorial/pyproject.toml, examples/celery/requirements.txt, examples/celery/pyproject.toml, examples/javascript/pyproject.toml, .github/workflows/tests.yaml, .github/workflows/pre-commit.yaml",
+            "Intermediate output evidence found: intermediate, save, to_json",
+            "Incremental/rerun evidence found: incremental, if exists, isdir, overwrite, force",
+            "Modular script structure detected: 83 Python files"
+        ],
+        "missing": []
+    },
+    {
+        "artifact_id": "artifact_10",
+        "title": "TensorFlow",
+        "uri": "https://github.com/tensorflow/tensorflow",
+        "recomputation_avoidant": true,
+        "status": "passed",
+        "score": 8,
+        "minimum_score": 4,
+        "python_file_count": 3158,
+        "notebook_count": 34,
+        "workflow_file_count": 28,
+        "config_file_count": 109,
+        "output_cache_dirs": [
+            "tensorflow/lite/delegates/gpu/metal/benchmarking/models",
+            "tensorflow/lite/g3doc/models",
+            "tensorflow/lite/experimental/acceleration/mini_benchmark/models",
+            "tensorflow/lite/tools/benchmark/experimental/delegate_performance/android/models",
+            "tensorflow/python/checkpoint"
+        ],
+        "keyword_findings": {
+            "caching": [
+                "cache",
+                "cached",
+                "caching"
+            ],
+            "checkpointing": [
+                "checkpoint",
+                "checkpointing",
+                "resume",
+                "restart",
+                "restore"
+            ],
+            "parameterization": [
+                "config",
+                "configuration",
+                "parameter",
+                "parameters",
+                "argparse",
+                "yaml",
+                "toml",
+                "--config",
+                "--input",
+                "--output"
+            ],
+            "workflow_modularity": [
+                "makefile",
+                "pipeline",
+                "workflow",
+                "stage",
+                "task",
+                "step"
+            ],
+            "intermediate_outputs": [
+                "intermediate",
+                "output_dir",
+                "save",
+                "model.save"
+            ],
+            "incremental_execution": [
+                "incremental",
+                "exists()",
+                "isdir",
+                "overwrite",
+                "force",
+                "rerun"
+            ]
+        },
+        "evidence": [
+            "Caching evidence found: cache, cached, caching",
+            "Checkpoint/resume evidence found: checkpoint, checkpointing, resume, restart, restore",
+            "Parameterization evidence found: config, configuration, parameter, parameters, argparse, yaml, toml, --config",
+            "Configuration files found: .zenodo.json, third_party/xla/docs/_toc.yaml, third_party/xla/docs/megascale/_toc.yaml, third_party/xla/docs/pjrt/_toc.yaml, third_party/xla/third_party/tsl/.github/workflows/scorecards-analysis.yml, third_party/xla/xla/tsl/platform/cloud/testdata/service_account_credentials.json, third_party/xla/xla/tsl/platform/cloud/testdata/application_default_credentials.json, third_party/xla/xla/tools/benchmarks/bap/hlo_workload_executor/action.yml",
+            "Workflow/modularity terms found: makefile, pipeline, workflow, stage, task, step",
+            "Workflow/build files found: ci/devinfra/docker/windows/Dockerfile, ci/devinfra/docker/windows2022/Dockerfile, ci/official/containers/ml_build/Dockerfile, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/flax_2b/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/keras/requirements.txt, third_party/xla/xla/backends/cpu/benchmarks/e2e/gemma2/pytorch_2b/requirements.txt, tensorflow/lite/tools/pip_package/Makefile, tensorflow/python/tpu/client/pip_package/setup.py",
+            "Intermediate output evidence found: intermediate, output_dir, save, model.save",
+            "Output/cache directories found: tensorflow/lite/delegates/gpu/metal/benchmarking/models, tensorflow/lite/g3doc/models, tensorflow/lite/experimental/acceleration/mini_benchmark/models, tensorflow/lite/tools/benchmark/experimental/delegate_performance/android/models, tensorflow/python/checkpoint",
+            "Incremental/rerun evidence found: incremental, exists(), isdir, overwrite, force, rerun",
+            "Modular script structure detected: 3158 Python files",
+            "Notebook-based executable workflow detected: 34 notebooks"
+        ],
+        "missing": []
+    }
+]
