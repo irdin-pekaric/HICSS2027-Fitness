@@ -1,6 +1,18 @@
-# Beyond FAIR: Fitness Functions for Sustainable Research Software
+# Beyond FAIR: Research Software Sustainability Framework
 
-This repository accompanies the paper _"Beyond FAIR: A Fitness Function Framework for Sustainable Research Software"_.
+This is the repository of the paper *"Beyond FAIR: A Fitness Function Framework for Sustainable Research Software"*, accepted to the 60th Hawaii International Conference on System Sciences (HICSS'60).
+
+If you use any of our resources, you are kindly invited to cite our paper:
+
+```bibtex
+@inproceedings{pekaric2027beyondfair,
+    title={{Beyond FAIR: A Fitness Function Framework for Sustainable Research Software}},
+    author={Pekaric, Irdin and Zech, Philipp},
+    booktitle={Proc. 60th Hawaii International Conference on System Sciences (HICSS)},
+    year={2027}
+}
+```
+
 
 The repository contains a lightweight and modular prototype for assessing sustainability properties of research software artifacts **beyond the traditional FAIR dimensions**. While FAIR remains important for findability, accessibility, interoperability, and reusability, this prototype focuses on additional sustainability concerns related to:
 
